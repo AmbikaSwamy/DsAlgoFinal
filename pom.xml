@@ -25,8 +25,10 @@
 	                </dependency>
 	            </dependencies>
 	        </plugin>
+	        
 	    </plugins>
 	    </pluginManagement>
+	    
 	</build>
 
 	<properties>
@@ -229,6 +231,12 @@
 		    <artifactId>extentreports-cucumber7-adapter</artifactId>
 		    <version>1.10.1</version>
 		</dependency>
-
+<!--https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-failsafe-plugin -->
+		<dependency>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-failsafe-plugin</artifactId>
+			<version>3.1.0</version>
+			<scope>test</scope>
+		</dependency>
   </dependencies>
 </project>

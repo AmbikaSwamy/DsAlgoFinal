@@ -231,12 +231,20 @@
 		    <artifactId>extentreports-cucumber7-adapter</artifactId>
 		    <version>1.10.1</version>
 		</dependency>
-<!--https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-failsafe-plugin -->
+
+		<!--https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-failsafe-plugin -->
 		<dependency>
 			<groupId>org.apache.maven.plugins</groupId>
 			<artifactId>maven-failsafe-plugin</artifactId>
 			<version>3.1.0</version>
 			<scope>test</scope>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.projectlombok</groupId>
+		    <artifactId>lombok</artifactId>
+		    <version>1.18.24</version>
+		    <scope>provided</scope>
 		</dependency>
   </dependencies>
 </project>

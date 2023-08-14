@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-17T09:21:13 EDT" name="Default suite" finished-at="2023-03-17T09:21:14 EDT" duration-ms="1913">
+    <groups>
+    </groups>
+    <test started-at="2023-03-17T09:21:13 EDT" name="Default test" finished-at="2023-03-17T09:21:14 EDT" duration-ms="1913">
+      <class name="PageObjects.SignInPage">
+        <test-method signature="handlePageAlerts()[pri:0, instance:PageObjects.SignInPage@248e319b]" started-at="2023-03-17T09:21:13 EDT" name="handlePageAlerts" finished-at="2023-03-17T09:21:14 EDT" duration-ms="1888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handlePageAlerts -->
+      </class> <!-- PageObjects.SignInPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

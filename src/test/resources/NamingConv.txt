@@ -1,0 +1,13 @@
+Button Submit - btnSubmit
+Textbox Username - txtUsername
+Dropdown City - cboCity (Dropdowns were earlier called Combo Boxes. Hence the name cbo.)
+Listbox Zipcode - lstZipcode
+Href SignIn - lnkSignIn (or) hrefSignIn
+WebElement PageHeader - wePageElement
+Object LinkedListPageObjects - objLinkedList
+
+String Query - sQuery (or) strQuery
+Integer Age - intAge
+Double Length - dblLength
+Float Area - flArea
+Boolean Choice - bChoice

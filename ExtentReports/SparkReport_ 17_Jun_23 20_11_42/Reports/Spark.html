@@ -1,0 +1,1808 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Jun 17, 2023 08:11:42 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@LogIntoWebsite</a><a class="dropdown-item" href="#">@tag</a><a class="dropdown-item" href="#">@tag1</a><a class="dropdown-item" href="#">@LogIn</a><a class="dropdown-item" href="#">@Register</a><a class="dropdown-item" href="#">@RegisterUserDataDriven</a><a class="dropdown-item" href="#">@LaunchWebPage</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Launch the heroku web page.</p>
+            <p class="text-sm">
+              <span>8:11:43 PM</span> / <span>00:00:16:860</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Launch the heroku web page.</h5>
+<span class='badge badge-success'>06.17.2023 8:11:43 PM</span>
+<span class='badge badge-danger'>06.17.2023 8:12:00 PM</span>
+<span class='badge badge-default'>00:00:16:860</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>User launches the web page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefintions.stepDefn.the_constants_are_initialized()">
+                <span>Given the constants are initialized</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_launches_the_web_page()">
+                <span>When user launches the web page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.clicks_the_get_started_button()">
+                <span>And clicks the get_started button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.go_to_the_home_page()">
+                <span>Then go to the home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_clicks_the_page_title()">
+                <span>Given user clicks the page title</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_clicks_the_ds_dropdown()">
+                <span>Then user clicks the DS dropdown</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_clicks_the_ds_intro_button()">
+                <span>Then user clicks the DS-IntroButton</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_clicks_the_array_button()">
+                <span>Then user clicks the ArrayButton</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_clicks_the_linked_list_button()">
+                <span>Then user clicks the LinkedListButton</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_clicks_the_stack_button()">
+                <span>Then user clicks the StackButton</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_clicks_the_queue_button()">
+                <span>Then user clicks the QueueButton</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_clicks_the_Tree_button()">
+                <span>Then user clicks the TreeButton</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_clicks_the_graph_button()">
+                <span>Then user clicks the GraphButton</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_clicks_the_register_link()">
+                <span>Then user clicks the RegisterLink</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_clicks_the_sign_in_link()">
+                <span>Then user clicks the SignInLink</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.close_the_browser()">
+                <span>And close the browser</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="53"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Register a user</p>
+            <p class="text-sm">
+              <span>8:12:00 PM</span> / <span>00:00:11:398</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Register a user</h5>
+<span class='badge badge-success'>06.17.2023 8:12:00 PM</span>
+<span class='badge badge-danger'>06.17.2023 8:12:11 PM</span>
+<span class='badge badge-default'>00:00:11:398</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=53</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"> User trying to register in the website</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="54"><span class="badge log fail-bg mr-2">Fail</span>Data driven concept of Registering with a valid username and password</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="55"><span class="badge log fail-bg mr-2">Fail</span>Data driven concept of Registering with a valid username and password</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given the constants are initialized</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given user launches the browser</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then user opens the URL "https://dsportalapp.herokuapp.com/register"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enters new "123456789" and "" and ""</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And click on register</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertFalse(Assert.java:65)
+	at org.junit.Assert.assertFalse(Assert.java:75)
+	at StepDefintions.stepDefn.click_on_register(stepDefn.java:564)
+	at ✽.click on register(file:///C:/Users/aasvi/eclipse-workspace/DS-Algo/src/test/resources/Features/02RegisterUserPage.feature:30)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefintions.ServiceHooks.DoThisAfterEachMethod(io.cucumber.java.Scenario)</span>
+      <div>Data driven concept of Registering with a valid username and password Failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded1.png' src="../Screenshots/embedded1.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When Page source contains "New Account Created. You are logged in as "</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then click on sign out</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And close the browser</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="82"><span class="badge log fail-bg mr-2">Fail</span>Data driven concept of Registering with a valid username and password</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given the constants are initialized</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given user launches the browser</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then user opens the URL "https://dsportalapp.herokuapp.com/register"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enters new "user.123" and "" and "password"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And click on register</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Page source contains "New Account Created. You are logged in as "</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then click on sign out</span>
+      <div>
+        <textarea disabled class="code-block">org.junit.ComparisonFailure: User signing out after registering ! expected:<...alapp.herokuapp.com/[home]> but was:<...alapp.herokuapp.com/[register]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at StepDefintions.stepDefn.click_on_sign_out(stepDefn.java:654)
+	at ✽.click on sign out(file:///C:/Users/aasvi/eclipse-workspace/DS-Algo/src/test/resources/Features/02RegisterUserPage.feature:32)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefintions.ServiceHooks.DoThisAfterEachMethod(io.cucumber.java.Scenario)</span>
+      <div>Data driven concept of Registering with a valid username and password Failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded2.png' src="../Screenshots/embedded2.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And close the browser</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="109"><span class="badge log fail-bg mr-2">Fail</span>Data driven concept of Registering with a valid username and password</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given the constants are initialized</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given user launches the browser</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then user opens the URL "https://dsportalapp.herokuapp.com/register"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When user enters new "user12()" and "" and "password"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>And click on register</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertFalse(Assert.java:65)
+	at org.junit.Assert.assertFalse(Assert.java:75)
+	at StepDefintions.stepDefn.click_on_register(stepDefn.java:572)
+	at ✽.click on register(file:///C:/Users/aasvi/eclipse-workspace/DS-Algo/src/test/resources/Features/02RegisterUserPage.feature:30)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>StepDefintions.ServiceHooks.DoThisAfterEachMethod(io.cucumber.java.Scenario)</span>
+      <div>Data driven concept of Registering with a valid username and password Failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../Screenshots/embedded3.png' src="../Screenshots/embedded3.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>When Page source contains "New Account Created. You are logged in as "</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then click on sign out</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>And close the browser</span>
+      <div>Step skipped
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="136"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Sign Into the website with valid credentials</p>
+            <p class="text-sm">
+              <span>8:12:11 PM</span> / <span>00:00:07:826</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Sign Into the website with valid credentials</h5>
+<span class='badge badge-success'>06.17.2023 8:12:11 PM</span>
+<span class='badge badge-danger'>06.17.2023 8:12:19 PM</span>
+<span class='badge badge-default'>00:00:07:826</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=136</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"> User trying to log into the website</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="137"><span class="badge log pass-bg mr-2">Pass</span>Sign into website</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefintions.stepDefn.launch_the_browser()">
+                <span>Given Launchh the browser</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.open_the_website()">
+                <span>Then Openn the website</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.read_the_xl_file_values()">
+                <span>And Readd the XL file values</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.check_for_valid_credentials()">
+                <span>Then Checkk for valid credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.login_if_valid()">
+                <span>Then Loginn if valid</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="155"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Test the features of a Linked List algorithm</p>
+            <p class="text-sm">
+              <span>8:12:19 PM</span> / <span>00:00:25:632</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Test the features of a Linked List algorithm</h5>
+<span class='badge badge-success'>06.17.2023 8:12:19 PM</span>
+<span class='badge badge-danger'>06.17.2023 8:12:45 PM</span>
+<span class='badge badge-default'>00:00:25:632</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=155</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"> I want to use this template for my feature file</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="156"><span class="badge log pass-bg mr-2">Pass</span>LINKED LIST CONCEPTS</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_is_on_the_homepage()">
+                <span>Given User is on the homepage</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_logs_in_with_valid_credentials()">
+                <span>When User logs in with valid credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.click_the_get_started_and_redirected_to_ll_page()">
+                <span>And Click the GetStarted then redirected to LL Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.click_on_the_intro_link()">
+                <span>Then Click on the Intro Link</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_ll_intro_page_and_clicks_the_try_here()">
+                <span>And User redirected to LLIntroPage and clicks the TryHere</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_the_editor_page_and_works_on_code_snippet()">
+                <span>Then User redirected to the Editor Page and works on code snippet</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.clicked_on_the_run_button_and_verify_the_output_try_a_print_hello_statement_here()">
+                <span>When Clicked on the RunButton and verify the output #Try a PrintHello statement here.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.click_on_insertion()">
+                <span>Then Click on Insertion</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_insert_in_ll_page_and_clicks_the_try_here()">
+                <span>And User redirected to InsertInLLPage and clicks the TryHere</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_the_insertion_editor_page_and_works_on_code_snippet()">
+                <span>Then User redirected to the Insertion Editor Page and works on code snippet</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.clicked_on_the_insertion_run_button_and_verify_the_output_try_a_code_snippet_here()">
+                <span>When Clicked on the Insertion RunButton and verify the output #Try a code snippet here.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.click_on_deletion()">
+                <span>Then Click on Deletion</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_delete_from_ll_page_and_clicks_the_try_here()">
+                <span>And User redirected to DeleteFromLLPage and clicks the TryHere</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_the_deletion_editor_page_and_works_on_code_snippet()">
+                <span>Then User redirected to the Deletion Editor Page and works on code snippet</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.clicked_on_the_deletion_run_button_and_verify_the_output_try_a_code_snippet_here()">
+                <span>When Clicked on the Deletion RunButton and verify the output #Try a code snippet here.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.click_on_the_practice_qn()">
+                <span>Then Click on the PracticeQn</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_practive_page_and_do_nothing()">
+                <span>And User redirected to PractivePage and do nothing</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.go_back_to_home_page()">
+                <span>And go back to homePage</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.close_the_browser()">
+                <span>And close the browser</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="216"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">STACK OPERATIONS FEATURE</p>
+            <p class="text-sm">
+              <span>8:12:45 PM</span> / <span>00:00:20:917</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">STACK OPERATIONS FEATURE</h5>
+<span class='badge badge-success'>06.17.2023 8:12:45 PM</span>
+<span class='badge badge-danger'>06.17.2023 8:13:06 PM</span>
+<span class='badge badge-default'>00:00:20:917</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=216</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"> I want to use this template for my feature file</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="217"><span class="badge log pass-bg mr-2">Pass</span>Stack Operations</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_is_on_the_homepage()">
+                <span>Given User is on the homepage</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_logs_in_with_valid_credentials()">
+                <span>When User logs in with valid credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.click_the_get_started_then_redirected_to_stack_page()">
+                <span>And Click the GetStarted then redirected to Stack Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.click_on_the_operations_in_stack()">
+                <span>Then Click on the Operations in Stack</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_stack_operations_page_and_clicks_the_try_here()">
+                <span>And User redirected to Stack Operations Page and clicks the TryHere</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_the_stack_editor_page_and_works_on_code_snippet()">
+                <span>Then User redirected to the Stack Editor Page and works on code snippet</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.clicked_on_the_run_button_and_verify_the_output_try_a_print_hello_statement_here()">
+                <span>When Clicked on the RunButton and verify the output #Try a PrintHello statement here.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.click_on_the_implementations_in_stack()">
+                <span>Then Click on the Implementations in Stack</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_implementations_page_and_clicks_the_try_here()">
+                <span>And User redirected to Implementations Page and clicks the TryHere</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_the_stack_editor_page_and_works_on_code_snippet()">
+                <span>Then User redirected to the Stack Editor Page and works on code snippet</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.clicked_on_the_run_button_and_verify_the_output_try_a_print_hello_statement_here()">
+                <span>When Clicked on the RunButton and verify the output #Try a PrintHello statement here.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.click_on_the_applications_in_stack()">
+                <span>Then Click on the Applications in Stack</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_applications_page_and_clicks_the_try_here()">
+                <span>And User redirected to Applications Page and clicks the TryHere</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_the_stack_editor_page_and_works_on_code_snippet()">
+                <span>Then User redirected to the Stack Editor Page and works on code snippet</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.clicked_on_the_run_button_and_verify_the_output_try_a_print_hello_statement_here()">
+                <span>When Clicked on the RunButton and verify the output #Try a PrintHello statement here.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.click_on_the_practice_question()">
+                <span>Then Click on the PracticeQuestion</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_practive_page_and_do_nothing()">
+                <span>And User redirected to PractivePage and do nothing</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.go_back_to_home_page()">
+                <span>And go back to homePage</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.close_the_browser()">
+                <span>And close the browser</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="277"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">TREE OPERATIONS FEATURE</p>
+            <p class="text-sm">
+              <span>8:13:06 PM</span> / <span>00:00:38:954</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">TREE OPERATIONS FEATURE</h5>
+<span class='badge badge-success'>06.17.2023 8:13:06 PM</span>
+<span class='badge badge-danger'>06.17.2023 8:13:45 PM</span>
+<span class='badge badge-default'>00:00:38:954</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=277</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"> I want to use this template for my feature file</div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="278"><span class="badge log pass-bg mr-2">Pass</span>Tree Operations</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_is_on_the_homepage()">
+                <span>Given User is on the homepage</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_logs_in_with_valid_credentials()">
+                <span>When User logs in with valid credentials</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.click_the_get_started_then_redirected_to_tree_page()">
+                <span>And Click the GetStarted then redirected to Tree Page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.click_on_the_overview_of_trees()">
+                <span>Then Click on the Overview of Trees</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_tree_overview_page_and_clicks_the_try_here()">
+                <span>And User redirected to Tree Overview Page and clicks the TryHere</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_the_tree_editor_page_and_works_on_code_snippet()">
+                <span>Then User redirected to the Tree Editor Page and works on code snippet</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.clicked_on_the_run_button_and_verify_the_output_try_a_print_hello_statement_here()">
+                <span>When Clicked on the RunButton and verify the output #Try a PrintHello statement here.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.click_on_the_terminologies_of_trees()">
+                <span>Then Click on the Terminologies of Trees</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_tree_tree_terminologies_and_clicks_the_try_here()">
+                <span>And User redirected to Tree Tree Terminologies and clicks the TryHere</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_the_tree_editor_page_and_works_on_code_snippet()">
+                <span>Then User redirected to the Tree Editor Page and works on code snippet</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.clicked_on_the_run_button_and_verify_the_output_try_a_print_hello_statement_here()">
+                <span>When Clicked on the RunButton and verify the output #Try a PrintHello statement here.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.click_on_the_types_of_trees()">
+                <span>Then Click on the Types of Trees</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_tree_types_page_and_clicks_the_try_here()">
+                <span>And User redirected to Tree Types Page and clicks the TryHere</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_the_tree_editor_page_and_works_on_code_snippet()">
+                <span>Then User redirected to the Tree Editor Page and works on code snippet</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.clicked_on_the_run_button_and_verify_the_output_try_a_print_hello_statement_here()">
+                <span>When Clicked on the RunButton and verify the output #Try a PrintHello statement here.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.click_on_the_tree_traversals()">
+                <span>Then Click on the Tree Traversals</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_tree_traversals_page_and_clicks_the_try_here()">
+                <span>And User redirected to Tree Traversals Page and clicks the TryHere</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_the_tree_editor_page_and_works_on_code_snippet()">
+                <span>Then User redirected to the Tree Editor Page and works on code snippet</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.clicked_on_the_run_button_and_verify_the_output_try_a_print_hello_statement_here()">
+                <span>When Clicked on the RunButton and verify the output #Try a PrintHello statement here.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.click_on_the_trees_traversal_illustration()">
+                <span>Then Click on the Trees Traversal Illustration</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_tree_traversal_illustration_page_and_clicks_the_try_here()">
+                <span>And User redirected to Tree Traversal Illustration Page and clicks the TryHere</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_the_tree_editor_page_and_works_on_code_snippet()">
+                <span>Then User redirected to the Tree Editor Page and works on code snippet</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.clicked_on_the_run_button_and_verify_the_output_try_a_print_hello_statement_here()">
+                <span>When Clicked on the RunButton and verify the output #Try a PrintHello statement here.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.click_on_the_binary_trees()">
+                <span>Then Click on the Binary Trees</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_binary_tree_page_and_clicks_the_try_here()">
+                <span>And User redirected to Binary Tree Page and clicks the TryHere</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_the_tree_editor_page_and_works_on_code_snippet()">
+                <span>Then User redirected to the Tree Editor Page and works on code snippet</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.clicked_on_the_run_button_and_verify_the_output_try_a_print_hello_statement_here()">
+                <span>When Clicked on the RunButton and verify the output #Try a PrintHello statement here.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.click_on_the_types_of_binary_trees()">
+                <span>Then Click on the Types of Binary Trees</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_binary_tree_types_page_and_clicks_the_try_here()">
+                <span>And User redirected to Binary Tree Types Page and clicks the TryHere</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_the_tree_editor_page_and_works_on_code_snippet()">
+                <span>Then User redirected to the Tree Editor Page and works on code snippet</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.clicked_on_the_run_button_and_verify_the_output_try_a_print_hello_statement_here()">
+                <span>When Clicked on the RunButton and verify the output #Try a PrintHello statement here.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.click_on_the_implementation_of_trees()">
+                <span>Then Click on the Implementation of Trees</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_tree_impl_page_and_clicks_the_try_here()">
+                <span>And User redirected to Tree Impl Page and clicks the TryHere</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_the_tree_editor_page_and_works_on_code_snippet()">
+                <span>Then User redirected to the Tree Editor Page and works on code snippet</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.clicked_on_the_run_button_and_verify_the_output_try_a_print_hello_statement_here()">
+                <span>When Clicked on the RunButton and verify the output #Try a PrintHello statement here.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.click_on_the_binary_trees_traversal()">
+                <span>Then Click on the Binary Trees Traversal</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_binary_tree_traversal_page_and_clicks_the_try_here()">
+                <span>And User redirected to Binary Tree Traversal Page and clicks the TryHere</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_the_tree_editor_page_and_works_on_code_snippet()">
+                <span>Then User redirected to the Tree Editor Page and works on code snippet</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.clicked_on_the_run_button_and_verify_the_output_try_a_print_hello_statement_here()">
+                <span>When Clicked on the RunButton and verify the output #Try a PrintHello statement here.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.click_on_the_impl_of_binary_trees()">
+                <span>Then Click on the Impl of Binary Trees</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_impl_of_binary_trees_page_and_clicks_the_try_here()">
+                <span>And User redirected to Impl of Binary Trees Page and clicks the TryHere</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_the_tree_editor_page_and_works_on_code_snippet()">
+                <span>Then User redirected to the Tree Editor Page and works on code snippet</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.clicked_on_the_run_button_and_verify_the_output_try_a_print_hello_statement_here()">
+                <span>When Clicked on the RunButton and verify the output #Try a PrintHello statement here.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.click_on_the_appl_of_binary_trees()">
+                <span>Then Click on the Appl of Binary Trees</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_appl_of_binary_trees_page_and_clicks_the_try_here()">
+                <span>And User redirected to  Appl of Binary Trees Page and clicks the TryHere</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_the_tree_editor_page_and_works_on_code_snippet()">
+                <span>Then User redirected to the Tree Editor Page and works on code snippet</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.clicked_on_the_run_button_and_verify_the_output_try_a_print_hello_statement_here()">
+                <span>When Clicked on the RunButton and verify the output #Try a PrintHello statement here.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.click_on_the_binary_search_trees()">
+                <span>Then Click on the Binary Search Trees</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_binary_search_tree_page_and_clicks_the_try_here()">
+                <span>And User redirected to Binary Search Tree Page and clicks the TryHere</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_the_tree_editor_page_and_works_on_code_snippet()">
+                <span>Then User redirected to the Tree Editor Page and works on code snippet</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.clicked_on_the_run_button_and_verify_the_output_try_a_print_hello_statement_here()">
+                <span>When Clicked on the RunButton and verify the output #Try a PrintHello statement here.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.click_on_the_impl_of_bin_srch_tree()">
+                <span>Then Click on the Impl of BinSrch Tree</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_impl_of_bin_srch_tree_page_and_clicks_the_try_here()">
+                <span>And User redirected to Impl of BinSrch Tree Page and clicks the TryHere</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_the_tree_editor_page_and_works_on_code_snippet()">
+                <span>Then User redirected to the Tree Editor Page and works on code snippet</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.clicked_on_the_run_button_and_verify_the_output_try_a_print_hello_statement_here()">
+                <span>When Clicked on the RunButton and verify the output #Try a PrintHello statement here.</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.click_on_the_tree_practice_question()">
+                <span>Then Click on the Tree PracticeQuestion</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.user_redirected_to_practive_page_and_do_nothing()">
+                <span>And User redirected to PractivePage and do nothing</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.go_back_to_home_page()">
+                <span>And go back to homePage</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefintions.stepDefn.close_the_browser()">
+                <span>And close the browser</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">java.lang.AssertionError</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.AssertionError</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>20:12:03 PM</td>
+<td>
+<a href="#" class="linked" test-id='53' id='70'>And click on register</a>
+<div class="">
+<span class="badge badge-default">Register a user.Data driven concept of Registering with a valid username and password.And click on register</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>20:12:11 PM</td>
+<td>
+<a href="#" class="linked" test-id='53' id='124'>And click on register</a>
+<div class="">
+<span class="badge badge-default">Register a user.Data driven concept of Registering with a valid username and password.And click on register</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">org.junit.ComparisonFailure</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.junit.ComparisonFailure</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>20:12:07 PM</td>
+<td>
+<a href="#" class="linked" test-id='53' id='103'>Then click on sign out</a>
+<div class="">
+<span class="badge badge-default">Register a user.Data driven concept of Registering with a valid username and password.Then click on sign out</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">7</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@LogIntoWebsite</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@LogIntoWebsite</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>20:12:11 PM</td>
+<td>
+<a href="#" class="linked" test-id='136' id='137'>Sign into website</a>
+<div class="">
+<span class="badge badge-default">Sign Into the website with valid credentials.Sign into website</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>4</span>
+</span>
+<p class="name">@tag</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tag</h4>
+<span status="pass" class='badge log pass-bg'>4 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>20:11:43 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>User launches the web page</a>
+<div class="">
+<span class="badge badge-default">Launch the heroku web page..User launches the web page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>20:12:19 PM</td>
+<td>
+<a href="#" class="linked" test-id='155' id='156'>LINKED LIST CONCEPTS</a>
+<div class="">
+<span class="badge badge-default">Test the features of a Linked List algorithm.LINKED LIST CONCEPTS</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>20:12:45 PM</td>
+<td>
+<a href="#" class="linked" test-id='216' id='217'>Stack Operations</a>
+<div class="">
+<span class="badge badge-default">STACK OPERATIONS FEATURE.Stack Operations</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>20:13:06 PM</td>
+<td>
+<a href="#" class="linked" test-id='277' id='278'>Tree Operations</a>
+<div class="">
+<span class="badge badge-default">TREE OPERATIONS FEATURE.Tree Operations</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>3</span>
+</span>
+<p class="name">@tag1</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tag1</h4>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>20:12:19 PM</td>
+<td>
+<a href="#" class="linked" test-id='155' id='156'>LINKED LIST CONCEPTS</a>
+<div class="">
+<span class="badge badge-default">Test the features of a Linked List algorithm.LINKED LIST CONCEPTS</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>20:12:45 PM</td>
+<td>
+<a href="#" class="linked" test-id='216' id='217'>Stack Operations</a>
+<div class="">
+<span class="badge badge-default">STACK OPERATIONS FEATURE.Stack Operations</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>20:13:06 PM</td>
+<td>
+<a href="#" class="linked" test-id='277' id='278'>Tree Operations</a>
+<div class="">
+<span class="badge badge-default">TREE OPERATIONS FEATURE.Tree Operations</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@LogIn</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@LogIn</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>20:12:11 PM</td>
+<td>
+<a href="#" class="linked" test-id='136' id='137'>Sign into website</a>
+<div class="">
+<span class="badge badge-default">Sign Into the website with valid credentials.Sign into website</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>3</span>
+</span>
+<p class="name">@Register</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Register</h4>
+<span status="fail" class='badge log badge-danger'>3 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>20:12:00 PM</td>
+<td>
+<a href="#" class="linked" test-id='53' id='55'>Data driven concept of Registering with a valid username and password</a>
+<div class="">
+<span class="badge badge-default">Register a user.Data driven concept of Registering with a valid username and password</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>20:12:03 PM</td>
+<td>
+<a href="#" class="linked" test-id='53' id='82'>Data driven concept of Registering with a valid username and password</a>
+<div class="">
+<span class="badge badge-default">Register a user.Data driven concept of Registering with a valid username and password</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>20:12:08 PM</td>
+<td>
+<a href="#" class="linked" test-id='53' id='109'>Data driven concept of Registering with a valid username and password</a>
+<div class="">
+<span class="badge badge-default">Register a user.Data driven concept of Registering with a valid username and password</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>3</span>
+</span>
+<p class="name">@RegisterUserDataDriven</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@RegisterUserDataDriven</h4>
+<span status="fail" class='badge log badge-danger'>3 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>20:12:00 PM</td>
+<td>
+<a href="#" class="linked" test-id='53' id='55'>Data driven concept of Registering with a valid username and password</a>
+<div class="">
+<span class="badge badge-default">Register a user.Data driven concept of Registering with a valid username and password</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>20:12:03 PM</td>
+<td>
+<a href="#" class="linked" test-id='53' id='82'>Data driven concept of Registering with a valid username and password</a>
+<div class="">
+<span class="badge badge-default">Register a user.Data driven concept of Registering with a valid username and password</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>20:12:08 PM</td>
+<td>
+<a href="#" class="linked" test-id='53' id='109'>Data driven concept of Registering with a valid username and password</a>
+<div class="">
+<span class="badge badge-default">Register a user.Data driven concept of Registering with a valid username and password</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@LaunchWebPage</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@LaunchWebPage</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>20:11:43 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>User launches the web page</a>
+<div class="">
+<span class="badge badge-default">Launch the heroku web page..User launches the web page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Jun 17, 2023 08:11:42 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Jun 17, 2023 08:13:45 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>5</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='83%'>
+<b>5</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='16%'><b>1</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='62%'><b>5</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='37%'><b>3</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='93%'><b>135</b> steps passed</small></div>
+<div>
+<small data-tooltip='2%'><b>3</b> steps failed,
+<b>7</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Launch the heroku web page.":16.86,"Register a user":11.398,"Sign Into the website with valid credentials":7.826,"Test the features of a Linked List algorithm":25.632,"STACK OPERATIONS FEATURE":20.917,"TREE OPERATIONS FEATURE":38.954
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@LogIntoWebsite</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tag</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tag1</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@LogIn</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@Register</td>
+<td>0</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@RegisterUserDataDriven</td>
+<td>0</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@LaunchWebPage</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 5,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 5,
+failChild: 3,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 135,
+failGrandChild: 3,
+warningGrandChild: 0,
+skipGrandChild: 7,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

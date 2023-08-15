@@ -10,9 +10,11 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions
 	(
 			features = "src/test/resources/Features",
+			// features = {"classpath:Features"},
 			glue = "StepDefintions",
 			dryRun = false,
 			monochrome = true,
+			
 			plugin= {"pretty", "html:test-output/ds-algo.html"				
 					, "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
 					, "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"

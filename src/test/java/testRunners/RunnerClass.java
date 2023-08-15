@@ -16,8 +16,8 @@ import io.cucumber.junit.CucumberOptions;
 			plugin= {"pretty", "html:test-output/ds-algo.html"				
 					, "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
 					, "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
-					, "html:target/json-report/ds-algo-cucumber.html"
-					, "json:target/json-report/ds-algo-cucumber.json"
+					, "html:target/cucumber.html"
+					, "json:target/cucumber.json"
 					}		
 	)
 public class RunnerClass {

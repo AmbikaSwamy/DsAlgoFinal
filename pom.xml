@@ -248,10 +248,10 @@
 		</dependency>
 		
 		<dependency>
-    <groupId>net.masterthought</groupId>
-    <artifactId>cucumber-reporting</artifactId>
-    <version>3.11.0</version>
-</dependency>
+		    <groupId>net.masterthought</groupId>
+		    <artifactId>cucumber-reporting</artifactId>
+		    <version>3.11.0</version>
+		</dependency>
 		
   </dependencies>
 </project>

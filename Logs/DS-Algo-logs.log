@@ -1182,3 +1182,595 @@
 [ INFO ] 2023-08-15 12:14:13.829 - ***********************************************************************************************************
 [ INFO ] 2023-08-15 12:14:13.829 - ###################### ###################### SCENARIO ENDS ###################### ######################
 [ INFO ] 2023-08-15 12:14:13.829 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:35:08.180 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:35:08.185 - ###################### ###################### SCENARIO BEGINS ###################### ######################
+[ INFO ] 2023-08-15 12:35:08.185 - ***********************************************************************************************************
+[ERROR ] 2023-08-15 12:35:09.174 - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[ WARN ] 2023-08-15 12:35:09.178 - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[ INFO ] 2023-08-15 12:35:09.313 - Exporting webdriver.chrome.driver as C:\Users\aasvi\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[ INFO ] 2023-08-15 12:35:10.396 - General Msg: Connection Established !!
+[ INFO ] 2023-08-15 12:35:13.441 - General Msg: Web Page Launched !!
+[ INFO ] 2023-08-15 12:35:13.831 - General Msg: User clicked the Get Started Button !!
+[ INFO ] 2023-08-15 12:35:13.840 - General Msg: User is at Home Page !!
+[ INFO ] 2023-08-15 12:35:13.957 - General Msg: User clicks Page Title - stays at Home Page !!
+[ INFO ] 2023-08-15 12:35:14.122 - General Msg: User Clicked Data Structures dropdown !!
+[ INFO ] 2023-08-15 12:35:14.126 - General Msg: User clicks Data Structures Dropdown Menu - stays at Home Page !!
+[ INFO ] 2023-08-15 12:35:15.344 - General Msg: User clicks DS Intro Button - not logged in - stays at Home Page !!
+[ INFO ] 2023-08-15 12:35:16.571 - General Msg: User clicks Array Button - not logged in - stays at Home Page !!
+[ INFO ] 2023-08-15 12:35:17.806 - General Msg: User clicks Linked List Button - not logged in - stays at Home Page !!
+[ INFO ] 2023-08-15 12:35:19.051 - General Msg: User clicks Stack Button - not logged in - stays at Home Page !!
+[ INFO ] 2023-08-15 12:35:20.295 - General Msg: User clicks Queue Button - not logged in - stays at Home Page !!
+[ INFO ] 2023-08-15 12:35:21.533 - General Msg: User clicks Tree Button - not logged in - stays at Home Page !!
+[ INFO ] 2023-08-15 12:35:22.727 - General Msg: User clicks Graph Button - not logged in - stays at Home Page !!
+[ INFO ] 2023-08-15 12:35:23.920 - General Msg: User clicks User Registration Link - Moves to User Registration Page !!
+[ INFO ] 2023-08-15 12:35:25.097 - General Msg: User clicks Sign-In Link - Moves to User Sign-In Page !!
+[ INFO ] 2023-08-15 12:35:26.248 - General Msg: User closed the browser / driver !
+[ INFO ] 2023-08-15 12:35:26.255 - SCENARIO : *** USER LAUNCHES THE WEB PAGE *** passed successfully !
+[ INFO ] 2023-08-15 12:35:26.255 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:35:26.255 - ###################### ###################### SCENARIO ENDS ###################### ######################
+[ INFO ] 2023-08-15 12:35:26.255 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:35:26.355 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:35:26.355 - ###################### ###################### SCENARIO BEGINS ###################### ######################
+[ INFO ] 2023-08-15 12:35:26.355 - ***********************************************************************************************************
+[ERROR ] 2023-08-15 12:35:26.714 - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[ WARN ] 2023-08-15 12:35:26.715 - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[ INFO ] 2023-08-15 12:35:26.847 - Exporting webdriver.chrome.driver as C:\Users\aasvi\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[ INFO ] 2023-08-15 12:35:27.542 - General Msg: Connection Established !!
+[ INFO ] 2023-08-15 12:35:27.547 - Class Name: stepDefn -> Method: user_launches_the_browser -> SUCCESS Msg: Launching web page to check the user registration test case !
+[ INFO ] 2023-08-15 12:35:27.994 - General Msg: User landed in User Registration Page !
+[ INFO ] 2023-08-15 12:35:29.287 - General Msg: User testing registering User Name () and Password () and P2 () in User Registration Page !
+[ERROR ] 2023-08-15 12:35:29.293 - Username () is the same as Password!!
+[ERROR ] 2023-08-15 12:35:29.293 - Username is empty !!
+[ INFO ] 2023-08-15 12:35:29.382 - Please fill out this field. -> system validated msg !
+[ERROR ] 2023-08-15 12:35:29.382 - Username () is the same as Password!!
+[ERROR ] 2023-08-15 12:35:29.382 - Username () does not follow the standards !! Reason : (Shorter than 8 characters)
+[ERROR ] 2023-08-15 12:35:29.382 - Password is empty !!
+[ INFO ] 2023-08-15 12:35:29.463 - Please fill out this field. -> system validated msg !
+[ERROR ] 2023-08-15 12:35:29.464 - Confirm Password is empty !!
+[ INFO ] 2023-08-15 12:35:29.525 - Please fill out this field. -> system validated msg !
+[ERROR ] 2023-08-15 12:35:29.525 - Invalid User Registration details supplied !!
+[ERROR ] 2023-08-15 12:35:29.529 - Class Name: stepDefn -> Method: page_source_contains -> Error Msg: Invalid credentials to register the user !!
+[ INFO ] 2023-08-15 12:35:30.640 - General Msg: User closed the browser / driver !
+[ INFO ] 2023-08-15 12:35:30.642 - SCENARIO : *** DATA DRIVEN CONCEPT OF REGISTERING WITH A VALID USERNAME AND PASSWORD *** passed successfully !
+[ INFO ] 2023-08-15 12:35:30.643 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:35:30.643 - ###################### ###################### SCENARIO ENDS ###################### ######################
+[ INFO ] 2023-08-15 12:35:30.643 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:35:30.670 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:35:30.670 - ###################### ###################### SCENARIO BEGINS ###################### ######################
+[ INFO ] 2023-08-15 12:35:30.670 - ***********************************************************************************************************
+[ERROR ] 2023-08-15 12:35:31.053 - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[ WARN ] 2023-08-15 12:35:31.053 - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[ INFO ] 2023-08-15 12:35:31.186 - Exporting webdriver.chrome.driver as C:\Users\aasvi\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[ INFO ] 2023-08-15 12:35:31.868 - General Msg: Connection Established !!
+[ INFO ] 2023-08-15 12:35:31.869 - Class Name: stepDefn -> Method: user_launches_the_browser -> SUCCESS Msg: Launching web page to check the user registration test case !
+[ INFO ] 2023-08-15 12:35:32.325 - General Msg: User landed in User Registration Page !
+[ INFO ] 2023-08-15 12:35:33.609 - General Msg: User testing registering User Name () and Password (password) and P2 (password) in User Registration Page !
+[ERROR ] 2023-08-15 12:35:33.619 - Username is empty !!
+[ INFO ] 2023-08-15 12:35:33.700 - Please fill out this field. -> system validated msg !
+[ERROR ] 2023-08-15 12:35:33.700 - Username () does not follow the standards !! Reason : (Shorter than 8 characters)
+[ERROR ] 2023-08-15 12:35:33.700 - Passwords do not match !!
+[ERROR ] 2023-08-15 12:35:33.700 - Invalid User Registration details supplied !!
+[ERROR ] 2023-08-15 12:35:33.702 - Class Name: stepDefn -> Method: page_source_contains -> Error Msg: Invalid credentials to register the user !!
+[ INFO ] 2023-08-15 12:35:34.849 - General Msg: User closed the browser / driver !
+[ INFO ] 2023-08-15 12:35:34.852 - SCENARIO : *** DATA DRIVEN CONCEPT OF REGISTERING WITH A VALID USERNAME AND PASSWORD *** passed successfully !
+[ INFO ] 2023-08-15 12:35:34.852 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:35:34.852 - ###################### ###################### SCENARIO ENDS ###################### ######################
+[ INFO ] 2023-08-15 12:35:34.853 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:35:34.871 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:35:34.871 - ###################### ###################### SCENARIO BEGINS ###################### ######################
+[ INFO ] 2023-08-15 12:35:34.871 - ***********************************************************************************************************
+[ERROR ] 2023-08-15 12:35:35.285 - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[ WARN ] 2023-08-15 12:35:35.285 - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[ INFO ] 2023-08-15 12:35:35.456 - Exporting webdriver.chrome.driver as C:\Users\aasvi\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[ INFO ] 2023-08-15 12:35:36.172 - General Msg: Connection Established !!
+[ INFO ] 2023-08-15 12:35:36.174 - Class Name: stepDefn -> Method: user_launches_the_browser -> SUCCESS Msg: Launching web page to check the user registration test case !
+[ INFO ] 2023-08-15 12:35:36.630 - General Msg: User landed in User Registration Page !
+[ INFO ] 2023-08-15 12:35:37.903 - General Msg: User testing registering User Name (username) and Password () and P2 () in User Registration Page !
+[ERROR ] 2023-08-15 12:35:37.911 - Password is empty !!
+[ INFO ] 2023-08-15 12:35:38.010 - Please fill out this field. -> system validated msg !
+[ERROR ] 2023-08-15 12:35:38.010 - Confirm Password is empty !!
+[ INFO ] 2023-08-15 12:35:38.065 - Please fill out this field. -> system validated msg !
+[ERROR ] 2023-08-15 12:35:38.065 - Invalid User Registration details supplied !!
+[ERROR ] 2023-08-15 12:35:38.067 - Class Name: stepDefn -> Method: page_source_contains -> Error Msg: Invalid credentials to register the user !!
+[ INFO ] 2023-08-15 12:35:39.200 - General Msg: User closed the browser / driver !
+[ INFO ] 2023-08-15 12:35:39.203 - SCENARIO : *** DATA DRIVEN CONCEPT OF REGISTERING WITH A VALID USERNAME AND PASSWORD *** passed successfully !
+[ INFO ] 2023-08-15 12:35:39.203 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:35:39.203 - ###################### ###################### SCENARIO ENDS ###################### ######################
+[ INFO ] 2023-08-15 12:35:39.203 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:35:39.226 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:35:39.226 - ###################### ###################### SCENARIO BEGINS ###################### ######################
+[ INFO ] 2023-08-15 12:35:39.226 - ***********************************************************************************************************
+[ERROR ] 2023-08-15 12:35:39.599 - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[ WARN ] 2023-08-15 12:35:39.599 - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[ INFO ] 2023-08-15 12:35:39.731 - Exporting webdriver.chrome.driver as C:\Users\aasvi\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[ INFO ] 2023-08-15 12:35:40.417 - General Msg: Connection Established !!
+[ INFO ] 2023-08-15 12:35:40.421 - Class Name: stepDefn -> Method: user_launches_the_browser -> SUCCESS Msg: Launching web page to check the user registration test case !
+[ INFO ] 2023-08-15 12:35:40.884 - General Msg: User landed in User Registration Page !
+[ INFO ] 2023-08-15 12:35:42.226 - General Msg: User testing registering User Name (username) and Password (password) and P2 () in User Registration Page !
+[ERROR ] 2023-08-15 12:35:42.231 - Confirm Password is empty !!
+[ INFO ] 2023-08-15 12:35:42.327 - Please fill out this field. -> system validated msg !
+[ERROR ] 2023-08-15 12:35:42.328 - Passwords do not match !!
+[ERROR ] 2023-08-15 12:35:42.328 - Invalid User Registration details supplied !!
+[ERROR ] 2023-08-15 12:35:42.334 - Class Name: stepDefn -> Method: page_source_contains -> Error Msg: Invalid credentials to register the user !!
+[ INFO ] 2023-08-15 12:35:43.426 - General Msg: User closed the browser / driver !
+[ INFO ] 2023-08-15 12:35:43.427 - SCENARIO : *** DATA DRIVEN CONCEPT OF REGISTERING WITH A VALID USERNAME AND PASSWORD *** passed successfully !
+[ INFO ] 2023-08-15 12:35:43.427 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:35:43.427 - ###################### ###################### SCENARIO ENDS ###################### ######################
+[ INFO ] 2023-08-15 12:35:43.427 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:35:43.438 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:35:43.438 - ###################### ###################### SCENARIO BEGINS ###################### ######################
+[ INFO ] 2023-08-15 12:35:43.438 - ***********************************************************************************************************
+[ERROR ] 2023-08-15 12:35:43.808 - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[ WARN ] 2023-08-15 12:35:43.808 - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[ INFO ] 2023-08-15 12:35:43.944 - Exporting webdriver.chrome.driver as C:\Users\aasvi\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[ INFO ] 2023-08-15 12:35:44.643 - General Msg: Connection Established !!
+[ INFO ] 2023-08-15 12:35:44.646 - Class Name: stepDefn -> Method: user_launches_the_browser -> SUCCESS Msg: Launching web page to check the user registration test case !
+[ INFO ] 2023-08-15 12:35:45.119 - General Msg: User landed in User Registration Page !
+[ INFO ] 2023-08-15 12:35:46.444 - General Msg: User testing registering User Name (username) and Password () and P2 (password) in User Registration Page !
+[ERROR ] 2023-08-15 12:35:46.451 - Password is empty !!
+[ INFO ] 2023-08-15 12:35:46.544 - Please fill out this field. -> system validated msg !
+[ERROR ] 2023-08-15 12:35:46.544 - Passwords do not match !!
+[ERROR ] 2023-08-15 12:35:46.544 - Invalid User Registration details supplied !!
+[ERROR ] 2023-08-15 12:35:46.545 - Class Name: stepDefn -> Method: page_source_contains -> Error Msg: Invalid credentials to register the user !!
+[ INFO ] 2023-08-15 12:35:47.689 - General Msg: User closed the browser / driver !
+[ INFO ] 2023-08-15 12:35:47.692 - SCENARIO : *** DATA DRIVEN CONCEPT OF REGISTERING WITH A VALID USERNAME AND PASSWORD *** passed successfully !
+[ INFO ] 2023-08-15 12:35:47.693 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:35:47.693 - ###################### ###################### SCENARIO ENDS ###################### ######################
+[ INFO ] 2023-08-15 12:35:47.693 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:35:47.703 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:35:47.703 - ###################### ###################### SCENARIO BEGINS ###################### ######################
+[ INFO ] 2023-08-15 12:35:47.703 - ***********************************************************************************************************
+[ERROR ] 2023-08-15 12:35:48.076 - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[ WARN ] 2023-08-15 12:35:48.076 - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[ INFO ] 2023-08-15 12:35:48.226 - Exporting webdriver.chrome.driver as C:\Users\aasvi\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[ INFO ] 2023-08-15 12:35:48.892 - General Msg: Connection Established !!
+[ INFO ] 2023-08-15 12:35:48.894 - Class Name: stepDefn -> Method: user_launches_the_browser -> SUCCESS Msg: Launching web page to check the user registration test case !
+[ INFO ] 2023-08-15 12:35:49.360 - General Msg: User landed in User Registration Page !
+[ INFO ] 2023-08-15 12:35:50.727 - General Msg: User testing registering User Name (username) and Password (password) and P2 (pass) in User Registration Page !
+[ERROR ] 2023-08-15 12:35:50.735 - Passwords do not match !!
+[ERROR ] 2023-08-15 12:35:50.735 - Invalid User Registration details supplied !!
+[ERROR ] 2023-08-15 12:35:50.737 - Class Name: stepDefn -> Method: page_source_contains -> Error Msg: Invalid credentials to register the user !!
+[ INFO ] 2023-08-15 12:35:51.848 - General Msg: User closed the browser / driver !
+[ INFO ] 2023-08-15 12:35:51.849 - SCENARIO : *** DATA DRIVEN CONCEPT OF REGISTERING WITH A VALID USERNAME AND PASSWORD *** passed successfully !
+[ INFO ] 2023-08-15 12:35:51.849 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:35:51.849 - ###################### ###################### SCENARIO ENDS ###################### ######################
+[ INFO ] 2023-08-15 12:35:51.849 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:35:51.870 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:35:51.870 - ###################### ###################### SCENARIO BEGINS ###################### ######################
+[ INFO ] 2023-08-15 12:35:51.870 - ***********************************************************************************************************
+[ERROR ] 2023-08-15 12:35:52.270 - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[ WARN ] 2023-08-15 12:35:52.270 - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[ INFO ] 2023-08-15 12:35:52.393 - Exporting webdriver.chrome.driver as C:\Users\aasvi\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[ INFO ] 2023-08-15 12:35:53.065 - General Msg: Connection Established !!
+[ INFO ] 2023-08-15 12:35:53.067 - Class Name: stepDefn -> Method: user_launches_the_browser -> SUCCESS Msg: Launching web page to check the user registration test case !
+[ INFO ] 2023-08-15 12:35:53.506 - General Msg: User landed in User Registration Page !
+[ INFO ] 2023-08-15 12:35:54.828 - General Msg: User testing registering User Name (user1234) and Password (password) and P2 (pass) in User Registration Page !
+[ERROR ] 2023-08-15 12:35:54.834 - Passwords do not match !!
+[ERROR ] 2023-08-15 12:35:54.834 - Invalid User Registration details supplied !!
+[ERROR ] 2023-08-15 12:35:54.835 - Class Name: stepDefn -> Method: page_source_contains -> Error Msg: Invalid credentials to register the user !!
+[ INFO ] 2023-08-15 12:35:55.982 - General Msg: User closed the browser / driver !
+[ INFO ] 2023-08-15 12:35:55.983 - SCENARIO : *** DATA DRIVEN CONCEPT OF REGISTERING WITH A VALID USERNAME AND PASSWORD *** passed successfully !
+[ INFO ] 2023-08-15 12:35:55.983 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:35:55.983 - ###################### ###################### SCENARIO ENDS ###################### ######################
+[ INFO ] 2023-08-15 12:35:55.983 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:35:55.994 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:35:55.995 - ###################### ###################### SCENARIO BEGINS ###################### ######################
+[ INFO ] 2023-08-15 12:35:55.995 - ***********************************************************************************************************
+[ERROR ] 2023-08-15 12:35:56.399 - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[ WARN ] 2023-08-15 12:35:56.399 - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[ INFO ] 2023-08-15 12:35:56.523 - Exporting webdriver.chrome.driver as C:\Users\aasvi\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[ INFO ] 2023-08-15 12:35:57.262 - General Msg: Connection Established !!
+[ INFO ] 2023-08-15 12:35:57.264 - Class Name: stepDefn -> Method: user_launches_the_browser -> SUCCESS Msg: Launching web page to check the user registration test case !
+[ INFO ] 2023-08-15 12:35:57.673 - General Msg: User landed in User Registration Page !
+[ INFO ] 2023-08-15 12:35:58.958 - General Msg: User testing registering User Name (username) and Password (username) and P2 () in User Registration Page !
+[ERROR ] 2023-08-15 12:35:58.970 - Username (username) is the same as Password!!
+[ERROR ] 2023-08-15 12:35:58.970 - Username (username) is the same as Password!!
+[ERROR ] 2023-08-15 12:35:58.970 - Confirm Password is empty !!
+[ INFO ] 2023-08-15 12:35:59.059 - Please fill out this field. -> system validated msg !
+[ERROR ] 2023-08-15 12:35:59.059 - Passwords do not match !!
+[ERROR ] 2023-08-15 12:35:59.059 - Invalid User Registration details supplied !!
+[ERROR ] 2023-08-15 12:35:59.061 - Class Name: stepDefn -> Method: page_source_contains -> Error Msg: Invalid credentials to register the user !!
+[ INFO ] 2023-08-15 12:36:00.219 - General Msg: User closed the browser / driver !
+[ INFO ] 2023-08-15 12:36:00.220 - SCENARIO : *** DATA DRIVEN CONCEPT OF REGISTERING WITH A VALID USERNAME AND PASSWORD *** passed successfully !
+[ INFO ] 2023-08-15 12:36:00.220 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:36:00.220 - ###################### ###################### SCENARIO ENDS ###################### ######################
+[ INFO ] 2023-08-15 12:36:00.220 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:36:00.229 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:36:00.229 - ###################### ###################### SCENARIO BEGINS ###################### ######################
+[ INFO ] 2023-08-15 12:36:00.229 - ***********************************************************************************************************
+[ERROR ] 2023-08-15 12:36:00.577 - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[ WARN ] 2023-08-15 12:36:00.577 - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[ INFO ] 2023-08-15 12:36:00.702 - Exporting webdriver.chrome.driver as C:\Users\aasvi\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[ INFO ] 2023-08-15 12:36:01.448 - General Msg: Connection Established !!
+[ INFO ] 2023-08-15 12:36:01.450 - Class Name: stepDefn -> Method: user_launches_the_browser -> SUCCESS Msg: Launching web page to check the user registration test case !
+[ INFO ] 2023-08-15 12:36:01.913 - General Msg: User landed in User Registration Page !
+[ INFO ] 2023-08-15 12:36:03.225 - General Msg: User testing registering User Name (123456789) and Password () and P2 () in User Registration Page !
+[ERROR ] 2023-08-15 12:36:03.231 - Username (123456789)  is all numeric !!
+[ERROR ] 2023-08-15 12:36:03.231 - Password is empty !!
+[ INFO ] 2023-08-15 12:36:03.328 - Please fill out this field. -> system validated msg !
+[ERROR ] 2023-08-15 12:36:03.328 - Confirm Password is empty !!
+[ INFO ] 2023-08-15 12:36:03.383 - Please fill out this field. -> system validated msg !
+[ERROR ] 2023-08-15 12:36:03.383 - Invalid User Registration details supplied !!
+[ERROR ] 2023-08-15 12:36:03.385 - Class Name: stepDefn -> Method: page_source_contains -> Error Msg: Invalid credentials to register the user !!
+[ INFO ] 2023-08-15 12:36:04.529 - General Msg: User closed the browser / driver !
+[ INFO ] 2023-08-15 12:36:04.532 - SCENARIO : *** DATA DRIVEN CONCEPT OF REGISTERING WITH A VALID USERNAME AND PASSWORD *** passed successfully !
+[ INFO ] 2023-08-15 12:36:04.532 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:36:04.532 - ###################### ###################### SCENARIO ENDS ###################### ######################
+[ INFO ] 2023-08-15 12:36:04.532 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:36:04.542 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:36:04.542 - ###################### ###################### SCENARIO BEGINS ###################### ######################
+[ INFO ] 2023-08-15 12:36:04.542 - ***********************************************************************************************************
+[ERROR ] 2023-08-15 12:36:04.908 - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[ WARN ] 2023-08-15 12:36:04.908 - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[ INFO ] 2023-08-15 12:36:05.042 - Exporting webdriver.chrome.driver as C:\Users\aasvi\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[ INFO ] 2023-08-15 12:36:05.765 - General Msg: Connection Established !!
+[ INFO ] 2023-08-15 12:36:05.769 - Class Name: stepDefn -> Method: user_launches_the_browser -> SUCCESS Msg: Launching web page to check the user registration test case !
+[ INFO ] 2023-08-15 12:36:06.233 - General Msg: User landed in User Registration Page !
+[ INFO ] 2023-08-15 12:36:07.517 - General Msg: User testing registering User Name (user) and Password () and P2 (password) in User Registration Page !
+[ERROR ] 2023-08-15 12:36:07.528 - Username (user) does not follow the standards !! Reason : (Shorter than 8 characters)
+[ERROR ] 2023-08-15 12:36:07.528 - Password is empty !!
+[ INFO ] 2023-08-15 12:36:07.614 - Please fill out this field. -> system validated msg !
+[ERROR ] 2023-08-15 12:36:07.614 - Passwords do not match !!
+[ERROR ] 2023-08-15 12:36:07.614 - Invalid User Registration details supplied !!
+[ERROR ] 2023-08-15 12:36:07.615 - Class Name: stepDefn -> Method: page_source_contains -> Error Msg: Invalid credentials to register the user !!
+[ INFO ] 2023-08-15 12:36:08.727 - General Msg: User closed the browser / driver !
+[ INFO ] 2023-08-15 12:36:08.729 - SCENARIO : *** DATA DRIVEN CONCEPT OF REGISTERING WITH A VALID USERNAME AND PASSWORD *** passed successfully !
+[ INFO ] 2023-08-15 12:36:08.729 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:36:08.732 - ###################### ###################### SCENARIO ENDS ###################### ######################
+[ INFO ] 2023-08-15 12:36:08.733 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:36:08.745 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:36:08.745 - ###################### ###################### SCENARIO BEGINS ###################### ######################
+[ INFO ] 2023-08-15 12:36:08.745 - ***********************************************************************************************************
+[ERROR ] 2023-08-15 12:36:09.111 - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[ WARN ] 2023-08-15 12:36:09.111 - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[ INFO ] 2023-08-15 12:36:09.261 - Exporting webdriver.chrome.driver as C:\Users\aasvi\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[ INFO ] 2023-08-15 12:36:09.988 - General Msg: Connection Established !!
+[ INFO ] 2023-08-15 12:36:09.990 - Class Name: stepDefn -> Method: user_launches_the_browser -> SUCCESS Msg: Launching web page to check the user registration test case !
+[ INFO ] 2023-08-15 12:36:10.490 - General Msg: User landed in User Registration Page !
+[ INFO ] 2023-08-15 12:36:11.777 - General Msg: User testing registering User Name (user12) and Password () and P2 (password) in User Registration Page !
+[ERROR ] 2023-08-15 12:36:11.781 - Username (user12) does not follow the standards !! Reason : (Shorter than 8 characters)
+[ERROR ] 2023-08-15 12:36:11.781 - Password is empty !!
+[ INFO ] 2023-08-15 12:36:11.870 - Please fill out this field. -> system validated msg !
+[ERROR ] 2023-08-15 12:36:11.870 - Passwords do not match !!
+[ERROR ] 2023-08-15 12:36:11.870 - Invalid User Registration details supplied !!
+[ERROR ] 2023-08-15 12:36:11.872 - Class Name: stepDefn -> Method: page_source_contains -> Error Msg: Invalid credentials to register the user !!
+[ INFO ] 2023-08-15 12:36:12.960 - General Msg: User closed the browser / driver !
+[ INFO ] 2023-08-15 12:36:12.962 - SCENARIO : *** DATA DRIVEN CONCEPT OF REGISTERING WITH A VALID USERNAME AND PASSWORD *** passed successfully !
+[ INFO ] 2023-08-15 12:36:12.963 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:36:12.963 - ###################### ###################### SCENARIO ENDS ###################### ######################
+[ INFO ] 2023-08-15 12:36:12.963 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:36:12.981 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:36:12.981 - ###################### ###################### SCENARIO BEGINS ###################### ######################
+[ INFO ] 2023-08-15 12:36:12.981 - ***********************************************************************************************************
+[ERROR ] 2023-08-15 12:36:13.452 - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[ WARN ] 2023-08-15 12:36:13.452 - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[ INFO ] 2023-08-15 12:36:13.577 - Exporting webdriver.chrome.driver as C:\Users\aasvi\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[ INFO ] 2023-08-15 12:36:14.314 - General Msg: Connection Established !!
+[ INFO ] 2023-08-15 12:36:14.315 - Class Name: stepDefn -> Method: user_launches_the_browser -> SUCCESS Msg: Launching web page to check the user registration test case !
+[ INFO ] 2023-08-15 12:36:14.775 - General Msg: User landed in User Registration Page !
+[ INFO ] 2023-08-15 12:36:16.102 - General Msg: User testing registering User Name (user.123) and Password () and P2 (password) in User Registration Page !
+[ERROR ] 2023-08-15 12:36:16.106 - Password is empty !!
+[ INFO ] 2023-08-15 12:36:16.195 - Please fill out this field. -> system validated msg !
+[ERROR ] 2023-08-15 12:36:16.195 - Passwords do not match !!
+[ERROR ] 2023-08-15 12:36:16.195 - Invalid User Registration details supplied !!
+[ERROR ] 2023-08-15 12:36:16.197 - Class Name: stepDefn -> Method: page_source_contains -> Error Msg: Invalid credentials to register the user !!
+[ INFO ] 2023-08-15 12:36:17.336 - General Msg: User closed the browser / driver !
+[ INFO ] 2023-08-15 12:36:17.337 - SCENARIO : *** DATA DRIVEN CONCEPT OF REGISTERING WITH A VALID USERNAME AND PASSWORD *** passed successfully !
+[ INFO ] 2023-08-15 12:36:17.338 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:36:17.338 - ###################### ###################### SCENARIO ENDS ###################### ######################
+[ INFO ] 2023-08-15 12:36:17.338 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:36:17.348 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:36:17.348 - ###################### ###################### SCENARIO BEGINS ###################### ######################
+[ INFO ] 2023-08-15 12:36:17.348 - ***********************************************************************************************************
+[ERROR ] 2023-08-15 12:36:17.697 - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[ WARN ] 2023-08-15 12:36:17.697 - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[ INFO ] 2023-08-15 12:36:17.825 - Exporting webdriver.chrome.driver as C:\Users\aasvi\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[ INFO ] 2023-08-15 12:36:18.521 - General Msg: Connection Established !!
+[ INFO ] 2023-08-15 12:36:18.529 - Class Name: stepDefn -> Method: user_launches_the_browser -> SUCCESS Msg: Launching web page to check the user registration test case !
+[ INFO ] 2023-08-15 12:36:19.012 - General Msg: User landed in User Registration Page !
+[ INFO ] 2023-08-15 12:36:20.296 - General Msg: User testing registering User Name (user12()) and Password () and P2 (password) in User Registration Page !
+[ERROR ] 2023-08-15 12:36:20.302 - Username (user12()) does not follow the standards !! Reason : Invalid characters found
+[ERROR ] 2023-08-15 12:36:20.302 - Password is empty !!
+[ INFO ] 2023-08-15 12:36:20.396 - Please fill out this field. -> system validated msg !
+[ERROR ] 2023-08-15 12:36:20.396 - Passwords do not match !!
+[ERROR ] 2023-08-15 12:36:20.396 - Invalid User Registration details supplied !!
+[ERROR ] 2023-08-15 12:36:20.397 - Class Name: stepDefn -> Method: page_source_contains -> Error Msg: Invalid credentials to register the user !!
+[ INFO ] 2023-08-15 12:36:21.528 - General Msg: User closed the browser / driver !
+[ INFO ] 2023-08-15 12:36:21.529 - SCENARIO : *** DATA DRIVEN CONCEPT OF REGISTERING WITH A VALID USERNAME AND PASSWORD *** passed successfully !
+[ INFO ] 2023-08-15 12:36:21.529 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:36:21.529 - ###################### ###################### SCENARIO ENDS ###################### ######################
+[ INFO ] 2023-08-15 12:36:21.529 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:36:21.544 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:36:21.544 - ###################### ###################### SCENARIO BEGINS ###################### ######################
+[ INFO ] 2023-08-15 12:36:21.544 - ***********************************************************************************************************
+[ERROR ] 2023-08-15 12:36:21.928 - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[ WARN ] 2023-08-15 12:36:21.928 - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[ INFO ] 2023-08-15 12:36:22.054 - Exporting webdriver.chrome.driver as C:\Users\aasvi\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[ INFO ] 2023-08-15 12:36:22.732 - General Msg: User launched the web page to test Sign-In Module !
+[ WARN ] 2023-08-15 12:36:23.227 - Class Name: StepDefinitions.stepDefn -> Method: open_the_website -> Warning Msg: User in Sign-In Page !!
+[ INFO ] 2023-08-15 12:36:23.229 - Class Name: StepDefinitions.stepDefn -> Method: read_the_xl_file_values -> SUCCESS Msg: Reading XL File and Sheet Names !!
+[ INFO ] 2023-08-15 12:36:29.132 - Class Name: stepDefn -> Method: login_if_valid -> Success Msg : Login Success !!
+[ INFO ] 2023-08-15 12:36:29.139 - SCENARIO : *** SIGN INTO WEBSITE *** passed successfully !
+[ INFO ] 2023-08-15 12:36:29.139 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:36:29.139 - ###################### ###################### SCENARIO ENDS ###################### ######################
+[ INFO ] 2023-08-15 12:36:29.139 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:36:29.150 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:36:29.151 - ###################### ###################### SCENARIO BEGINS ###################### ######################
+[ INFO ] 2023-08-15 12:36:29.151 - ***********************************************************************************************************
+[ERROR ] 2023-08-15 12:36:29.527 - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[ WARN ] 2023-08-15 12:36:29.527 - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[ INFO ] 2023-08-15 12:36:29.647 - Exporting webdriver.chrome.driver as C:\Users\aasvi\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[ INFO ] 2023-08-15 12:36:30.842 - Class Name: StepDefinitions.stepDefn -> Method: user_is_on_the_homepage -> SUCCESS Msg: User launched Home Page to login and test any DS Page !
+[ INFO ] 2023-08-15 12:36:31.395 - Class Name: StepDefinitions.stepDefn -> Method: user_logs_in_with_valid_credentials -> SUCCESS Msg: User logs in Home Page to test any DS Page !
+[ INFO ] 2023-08-15 12:36:33.588 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_the_getstarted_button_of_data_structures_introduction -> SUCCESS Msg: User clicks the Getstarted button of Data Structures - Introduction -> DS Page !
+[ INFO ] 2023-08-15 12:36:34.609 - Class Name: StepDefinitions.stepDefn -> Method: user_is_directed_to_data_structures_introduction_page -> SUCCESS Msg: User is on Data Structures - Introduction Page !
+[ INFO ] 2023-08-15 12:36:38.063 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_the_time_complexity_link -> SUCCESS Msg: User is able to click Time Complexity Link -> DS Page !
+[ INFO ] 2023-08-15 12:36:39.081 - Class Name: StepDefinitions.stepDefn -> Method: user_is_directed_to_time_complexity_page -> SUCCESS Msg: User is directed to Time Complexity Page !
+[ INFO ] 2023-08-15 12:36:41.117 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_DStry_here_button -> SUCCESS Msg: User is able to click Try Here button -> DS Page !
+[ INFO ] 2023-08-15 12:36:42.231 - Class Name: StepDefinitions.stepDefn -> Method: user_is_directed_to_DStry_editor_page -> SUCCESS Msg: User is in TryEditor Page -> DS Page !
+[ INFO ] 2023-08-15 12:36:43.302 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_DSrun_button -> SUCCESS Msg: User is able to click on Run button in Try Editor page -> DS Page !
+[ INFO ] 2023-08-15 12:36:44.354 - Class Name: StepDefinitions.stepDefn -> Method: navigates_back_to_time_complexity_page -> SUCCESS Msg: User is able to navigate back to Time Complexity page -> DS Page !
+[ INFO ] 2023-08-15 12:36:45.473 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_DSpractice_questions_link -> SUCCESS Msg: User is able to click on Practice Questions link -> DS Page !
+[ INFO ] 2023-08-15 12:36:46.489 - Class Name: StepDefinitions.stepDefn -> Method: user_is_directed_to_DSpractice_questions_page -> SUCCESS Msg: User is able to land on Practice Questions Page -> DS Page !
+[ INFO ] 2023-08-15 12:36:47.596 - Class Name: StepDefinitions.stepDefn -> Method: go_back_to_home_page -> SUCCESS Msg: User landed on the Home Page from null Page !
+[ INFO ] 2023-08-15 12:36:48.718 - General Msg: User closed the browser / driver !
+[ INFO ] 2023-08-15 12:36:48.719 - SCENARIO : *** TESTING DATA STRUCTURES INTRODUCTION *** passed successfully !
+[ INFO ] 2023-08-15 12:36:48.719 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:36:48.719 - ###################### ###################### SCENARIO ENDS ###################### ######################
+[ INFO ] 2023-08-15 12:36:48.719 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:36:48.748 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:36:48.748 - ###################### ###################### SCENARIO BEGINS ###################### ######################
+[ INFO ] 2023-08-15 12:36:48.748 - ***********************************************************************************************************
+[ERROR ] 2023-08-15 12:36:49.118 - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[ WARN ] 2023-08-15 12:36:49.118 - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[ INFO ] 2023-08-15 12:36:49.256 - Exporting webdriver.chrome.driver as C:\Users\aasvi\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[ INFO ] 2023-08-15 12:36:50.393 - Class Name: StepDefinitions.stepDefn -> Method: user_is_on_the_homepage -> SUCCESS Msg: User launched Home Page to login and test any DS Page !
+[ INFO ] 2023-08-15 12:36:51.004 - Class Name: StepDefinitions.stepDefn -> Method: user_logs_in_with_valid_credentials -> SUCCESS Msg: User logs in Home Page to test any DS Page !
+[ INFO ] 2023-08-15 12:36:51.188 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_get_started_button_under_array_column -> SUCCESS Msg: User clicked on the Get Started Button under Array Column in Home Page !
+[ INFO ] 2023-08-15 12:36:52.538 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_arrays_in_python_link -> SUCCESS Msg: User clicked Arrays in Python link - Array Page !
+[ INFO ] 2023-08-15 12:36:54.589 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_try_here_button_on_arrays_in_python_page -> SUCCESS Msg: User is directed to the editor Page -> Arrays in Python Page !
+[ INFO ] 2023-08-15 12:36:55.825 - Class Name: StepDefinitions.stepDefn -> Method: DisplayEditorCode -> SUCCESS Msg: User is trying a code snippet in the editor Page of Array !
+[ INFO ] 2023-08-15 12:36:56.901 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_run_button -> SUCCESS Msg: User is able to click on Run button of TryEditor page
+[ INFO ] 2023-08-15 12:36:58.054 - Class Name: StepDefinitions.stepDefn -> Method: user_navigates_back_to_array_page -> SUCCESS Msg: User landed on the Arrays page from Array Page !
+[ INFO ] 2023-08-15 12:36:59.267 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_arrays_using_list_link -> SUCCESS Msg: User clicked Arrays Using List link - Array Page !
+[ INFO ] 2023-08-15 12:37:00.482 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_try_here_button_on_arrays_using_list_page -> SUCCESS Msg: User is directed to the editor Page (Array) !
+[ INFO ] 2023-08-15 12:37:01.721 - Class Name: StepDefinitions.stepDefn -> Method: DisplayEditorCode -> SUCCESS Msg: User is trying a code snippet in the editor Page of Array !
+[ INFO ] 2023-08-15 12:37:02.778 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_run_button -> SUCCESS Msg: User is able to click on Run button of TryEditor page
+[ INFO ] 2023-08-15 12:37:03.941 - Class Name: StepDefinitions.stepDefn -> Method: user_navigates_back_to_array_page -> SUCCESS Msg: User landed on the Arrays page from Array Page !
+[ INFO ] 2023-08-15 12:37:05.155 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_basic_operations_in_lists_link -> SUCCESS Msg: User clicked Basic Operations in Lists link - Array Page !
+[ INFO ] 2023-08-15 12:37:06.352 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_try_here_button_on_basic_operations_in_lists_page -> SUCCESS Msg: User is directed to the editor Page (Array) !
+[ INFO ] 2023-08-15 12:37:07.590 - Class Name: StepDefinitions.stepDefn -> Method: DisplayEditorCode -> SUCCESS Msg: User is trying a code snippet in the editor Page of Array !
+[ INFO ] 2023-08-15 12:37:08.646 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_run_button -> SUCCESS Msg: User is able to click on Run button of TryEditor page
+[ INFO ] 2023-08-15 12:37:09.768 - Class Name: StepDefinitions.stepDefn -> Method: user_navigates_back_to_array_page -> SUCCESS Msg: User landed on the Arrays page from Array Page !
+[ INFO ] 2023-08-15 12:37:10.983 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_applications_of_array_link -> SUCCESS Msg: User clicked Applications of Array link - Array Page !
+[ INFO ] 2023-08-15 12:37:12.188 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_try_here_button_on_applications_of_array_page -> SUCCESS Msg: User is directed to the editor Page (Array) !
+[ INFO ] 2023-08-15 12:37:13.411 - Class Name: StepDefinitions.stepDefn -> Method: DisplayEditorCode -> SUCCESS Msg: User is trying a code snippet in the editor Page of Array !
+[ INFO ] 2023-08-15 12:37:14.464 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_run_button -> SUCCESS Msg: User is able to click on Run button of TryEditor page
+[ INFO ] 2023-08-15 12:37:15.645 - Class Name: StepDefinitions.stepDefn -> Method: user_navigates_back -> SUCCESS Msg: User landed on the Applications of Array Page from Array Page !
+[ INFO ] 2023-08-15 12:37:16.757 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_practice_question_link -> SUCCESS Msg: User clicked Practice Question link - Array Page !
+[ INFO ] 2023-08-15 12:37:18.198 - Class Name: StepDefinitions.stepDefn -> Method: the_user_clicks_on_search_the_array_link -> SUCCESS Msg: User clicked Search the array link - Array Page !
+[ INFO ] 2023-08-15 12:37:18.459 - Class Name: StepDefinitions.stepDefn -> Method: DisplayEditorCode -> SUCCESS Msg: User is trying a code snippet in the editor Page from (question1 page) Array !
+[ INFO ] 2023-08-15 12:37:20.525 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_run_button_for_practice_question1 -> SUCCESS Msg: User clicked the RUN button in (Question1) Array !
+[ INFO ] 2023-08-15 12:37:21.583 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_submit_button_for_practice_question1 -> SUCCESS Msg: User clicked the Submit button in editor Page from (question1 page) Array !
+[ INFO ] 2023-08-15 12:37:26.900 - Class Name: StepDefinitions.stepDefn -> Method: the_user_clicks_on_max_consecutive_ones_link -> SUCCESS Msg: User clicked Max Consecutive Ones link - Array Page !
+[ INFO ] 2023-08-15 12:37:27.136 - Class Name: StepDefinitions.stepDefn -> Method: DisplayEditorCode -> SUCCESS Msg: User is trying a code snippet in the editor Page from (question2 page) Array !
+[ INFO ] 2023-08-15 12:37:29.188 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_run_button_for_practice_question2 -> SUCCESS Msg: User clicked the RUN button in (Question2) Array !
+[ INFO ] 2023-08-15 12:37:30.237 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_submit_button_for_practice_question2 -> SUCCESS Msg: User clicked the Submit button in editor Page from (question1 page) Array !
+[ INFO ] 2023-08-15 12:37:35.522 - Class Name: StepDefinitions.stepDefn -> Method: the_user_clicks_on_find_numbers_with_even_number_of_digits_link -> SUCCESS Msg: User clicked Find Numbers with Even Number of Digits link - Array Page !
+[ INFO ] 2023-08-15 12:37:35.777 - Class Name: StepDefinitions.stepDefn -> Method: DisplayEditorCode -> SUCCESS Msg: User is trying a code snippet in the editor Page from (question3 page) Array !
+[ INFO ] 2023-08-15 12:37:37.826 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_run_button_for_practice_question3 -> SUCCESS Msg: User clicked the RUN button in (Question3) Array !
+[ INFO ] 2023-08-15 12:37:38.892 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_submit_button_for_practice_question3 -> SUCCESS Msg: User clicked the Submit button in editor Page from (question3 page) Array !
+[ INFO ] 2023-08-15 12:37:44.227 - Class Name: StepDefinitions.stepDefn -> Method: the_user_clicks_on_squares_of_a_sorted_array_link -> SUCCESS Msg: User clicked Squares of a Sorted Array link - Array Page !
+[ INFO ] 2023-08-15 12:37:44.492 - Class Name: StepDefinitions.stepDefn -> Method: DisplayEditorCode -> SUCCESS Msg: User is trying a code snippet in the editor Page from (question4 page) Array !
+[ INFO ] 2023-08-15 12:37:46.555 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_run_button_for_practice_question4 -> SUCCESS Msg: User clicked the RUN button in (Question4) Array !
+[ INFO ] 2023-08-15 12:37:47.604 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_submit_button_for_practice_question4 -> SUCCESS Msg: User clicked the Submit button in editor Page from (question4 page) Array !
+[ INFO ] 2023-08-15 12:37:51.742 - SCENARIO : *** USER IS TESTING ARRAY MODULE *** passed successfully !
+[ INFO ] 2023-08-15 12:37:51.742 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:37:51.742 - ###################### ###################### SCENARIO ENDS ###################### ######################
+[ INFO ] 2023-08-15 12:37:51.742 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:37:51.769 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:37:51.769 - ###################### ###################### SCENARIO BEGINS ###################### ######################
+[ INFO ] 2023-08-15 12:37:51.769 - ***********************************************************************************************************
+[ERROR ] 2023-08-15 12:37:52.137 - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[ WARN ] 2023-08-15 12:37:52.137 - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[ INFO ] 2023-08-15 12:37:52.260 - Exporting webdriver.chrome.driver as C:\Users\aasvi\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[ INFO ] 2023-08-15 12:37:53.475 - Class Name: StepDefinitions.stepDefn -> Method: user_is_on_the_homepage -> SUCCESS Msg: User launched Home Page to login and test any DS Page !
+[ INFO ] 2023-08-15 12:37:54.008 - Class Name: StepDefinitions.stepDefn -> Method: user_logs_in_with_valid_credentials -> SUCCESS Msg: User logs in Home Page to test any DS Page !
+[ INFO ] 2023-08-15 12:37:54.216 - Class Name: StepDefinitions.stepDefn -> Method: click_the_get_started_and_redirected_to_ll_page -> SUCCESS Msg: User clicked on the Get Started Button of Linked List in Home Page !
+[ INFO ] 2023-08-15 12:37:55.414 - Class Name: StepDefinitions.stepDefn -> Method: click_on_the_intro_link -> SUCCESS Msg: User clicked Introduction to LL Link - LL Page !
+[ INFO ] 2023-08-15 12:37:56.894 - Class Name: StepDefinitions.stepDefn -> Method: user_redirected_to_ll_intro_page_and_clicks_the_try_here -> SUCCESS Msg: User is directed to the (INTRO) code editor Page (LL) !
+[ INFO ] 2023-08-15 12:37:57.133 - Class Name: StepDefinitions.stepDefn -> Method: DisplayEditorCode -> SUCCESS Msg: User is trying a code snippet in the editor Page from (INTRO TO) LL !
+[ INFO ] 2023-08-15 12:37:58.205 - Class Name: StepDefinitions.stepDefn -> Method: clicked_on_the_run_button_and_verify_the_output_try_a_print_hello_statement_here -> SUCCESS Msg: User clicked the RUN button in (INTRO TO) Linked List - LL Page !
+[ INFO ] 2023-08-15 12:37:58.444 - Class Name: StepDefinitions.stepDefn -> Method: click_on_creating_ll -> SUCCESS Msg: User clicked Create a Linked List - LL Page !
+[ INFO ] 2023-08-15 12:37:58.978 - Class Name: StepDefinitions.stepDefn -> Method: user_redirected_to_create_ll_page_and_clicks_the_try_here -> SUCCESS Msg: User is in LL Page and clicked the (Create LL) TRY HERE button !
+[ INFO ] 2023-08-15 12:38:02.545 - Class Name: StepDefinitions.stepDefn -> Method: clicked_on_the_run_button_and_verify_the_output_try_a_code_snippet_here -> SUCCESS Msg: User is in LL Page and clicked the (Create LL) RUN button !
+[ INFO ] 2023-08-15 12:38:02.955 - Class Name: StepDefinitions.stepDefn -> Method: click_on_types_of_ll -> SUCCESS Msg: User clicked Types of Linked List - LL Page !
+[ INFO ] 2023-08-15 12:38:03.501 - Class Name: StepDefinitions.stepDefn -> Method: user_redirected_to_ll_types_page_and_clicks_the_try_here -> SUCCESS Msg: User is in (TypesOf)LL Page and clicked the TRY HERE button !
+[ INFO ] 2023-08-15 12:38:05.855 - Class Name: StepDefinitions.stepDefn -> Method: clicked_on_the_run_button_and_verify_the_output_try_a_code_snippet_for_single_and_double_ll_here -> SUCCESS Msg: User is in LL Page and clicked the (TypesOf LL) RUN button !
+[ INFO ] 2023-08-15 12:38:06.177 - Class Name: StepDefinitions.stepDefn -> Method: click_on_implement_ll_in_python -> SUCCESS Msg: User clicked IMPLEMENT a Linked List - LL Page !
+[ INFO ] 2023-08-15 12:38:06.751 - Class Name: StepDefinitions.stepDefn -> Method: user_redirected_to_implement_ll_page_and_clicks_the_try_here -> SUCCESS Msg: User is in (IMPLEMENT) LL Page and clicked the TRY HERE button !
+[ INFO ] 2023-08-15 12:38:08.564 - Class Name: StepDefinitions.stepDefn -> Method: clicked_on_the_implement_ll_run_button_and_verify_the_output_try_a_code_snippet_here -> SUCCESS Msg: User is in (IMPLEMENT) LL Page and clicked the RUN button !
+[ INFO ] 2023-08-15 12:38:08.953 - Class Name: StepDefinitions.stepDefn -> Method: click_on_traversal -> SUCCESS Msg: User clicked TRAVERSING a Linked List - LL Page !
+[ INFO ] 2023-08-15 12:38:09.515 - Class Name: StepDefinitions.stepDefn -> Method: user_redirected_to_traverse_page_and_clicks_the_try_here -> SUCCESS Msg: User clicked Try Here -> TRAVERSING a Linked List -> LL Page !
+[ INFO ] 2023-08-15 12:38:12.600 - Class Name: StepDefinitions.stepDefn -> Method: clicked_on_the_traversal_run_button_and_verify_the_output_try_a_code_snippet_here_available_in_the_same_web_page -> SUCCESS Msg: User clicked on the RUN Button of (TRAVERSE) Editor Page -> LL Page !
+[ INFO ] 2023-08-15 12:38:12.871 - Class Name: StepDefinitions.stepDefn -> Method: click_on_insertion -> SUCCESS Msg: User clicked on the INSERT into Linked List -> LL Page !
+[ INFO ] 2023-08-15 12:38:13.398 - Class Name: StepDefinitions.stepDefn -> Method: user_redirected_to_insert_in_ll_page_and_clicks_the_try_here -> SUCCESS Msg: User clicked on the Try Here Button (INSERT into Linked List) -> LL Page !
+[ INFO ] 2023-08-15 12:38:14.975 - Class Name: StepDefinitions.stepDefn -> Method: user_redirected_to_the_insertion_editor_page_and_works_on_code_snippet -> SUCCESS Msg: User copied PYTHON code from the InsertIntoLL.properties file to INSERT into Linked List -> LL Page !
+[ INFO ] 2023-08-15 12:38:17.051 - Class Name: StepDefinitions.stepDefn -> Method: clicked_on_the_insertion_run_button_and_verify_the_output_try_a_code_snippet_here -> SUCCESS Msg: User clicked on the RUN Button of (Insertion) Editor Page -> LL Page !
+[ INFO ] 2023-08-15 12:38:17.319 - Class Name: StepDefinitions.stepDefn -> Method: click_on_deletion -> SUCCESS Msg: User clicked DELETE from a Linked List - LL Page !
+[ INFO ] 2023-08-15 12:38:17.866 - Class Name: StepDefinitions.stepDefn -> Method: user_redirected_to_delete_from_ll_page_and_clicks_the_try_here -> SUCCESS Msg: User clicked Try Here -> DELETE from a Linked List -> LL Page !
+[ INFO ] 2023-08-15 12:38:19.988 - Class Name: StepDefinitions.stepDefn -> Method: user_redirected_to_the_deletion_editor_page_and_works_on_code_snippet -> SUCCESS Msg: User is reading the PYTHON CODE for (DELETING LL) pasting in Editor Page -> LL Page !
+[ INFO ] 2023-08-15 12:38:22.086 - Class Name: StepDefinitions.stepDefn -> Method: clicked_on_the_deletion_run_button_and_verify_the_output_try_a_code_snippet_here -> SUCCESS Msg: User clicked on the RUN Button of (DELETE) Editor Page -> LL Page !
+[ INFO ] 2023-08-15 12:38:24.273 - Class Name: StepDefinitions.stepDefn -> Method: click_on_the_practice_qn -> SUCCESS Msg: User clicked on the PRACTICE QUESTIONS in Linked List -> LL Page !
+[ INFO ] 2023-08-15 12:38:24.281 - Class Name: StepDefinitions.stepDefn -> Method: CheckForTestCasesResults -> SUCCESS Msg: User is in the PRACTICE QUESTIONS in Linked List Page !
+[ INFO ] 2023-08-15 12:38:25.396 - Class Name: StepDefinitions.stepDefn -> Method: go_back_to_home_page -> SUCCESS Msg: User landed on the Home Page from LL Page !
+[ INFO ] 2023-08-15 12:38:26.525 - General Msg: User closed the browser / driver !
+[ INFO ] 2023-08-15 12:38:26.527 - SCENARIO : *** LINKED LIST CONCEPTS *** passed successfully !
+[ INFO ] 2023-08-15 12:38:26.527 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:38:26.527 - ###################### ###################### SCENARIO ENDS ###################### ######################
+[ INFO ] 2023-08-15 12:38:26.527 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:38:26.547 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:38:26.547 - ###################### ###################### SCENARIO BEGINS ###################### ######################
+[ INFO ] 2023-08-15 12:38:26.547 - ***********************************************************************************************************
+[ERROR ] 2023-08-15 12:38:26.873 - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[ WARN ] 2023-08-15 12:38:26.873 - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[ INFO ] 2023-08-15 12:38:27.017 - Exporting webdriver.chrome.driver as C:\Users\aasvi\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[ INFO ] 2023-08-15 12:38:28.165 - Class Name: StepDefinitions.stepDefn -> Method: user_is_on_the_homepage -> SUCCESS Msg: User launched Home Page to login and test any DS Page !
+[ INFO ] 2023-08-15 12:38:28.699 - Class Name: StepDefinitions.stepDefn -> Method: user_logs_in_with_valid_credentials -> SUCCESS Msg: User logs in Home Page to test any DS Page !
+[ INFO ] 2023-08-15 12:38:28.882 - Class Name: StepDefinitions.stepDefn -> Method: click_the_get_started_then_redirected_to_stack_page -> SUCCESS Msg: User clicked on the Get Started button in Home Page to test the Stack Page !
+[ INFO ] 2023-08-15 12:38:30.184 - Class Name: StepDefinitions.stepDefn -> Method: click_on_the_operations_in_stack -> SUCCESS Msg: User clicked on the Operations in Stack to test the Stack Page !
+[ INFO ] 2023-08-15 12:38:32.268 - Class Name: StepDefinitions.stepDefn -> Method: user_redirected_to_stack_operations_page_and_clicks_the_try_here -> SUCCESS Msg: User clicked on the TRY HERE -> Operations in Stack -> Stack Page !
+[ INFO ] 2023-08-15 12:38:33.764 - Class Name: StepDefinitions.stepDefn -> Method: clicked_on_the_Stack_Op_run_button_and_verify_the_output_try_a_print_hello_statement_here -> SUCCESS Msg: User clicked the RUN button in (Stack Operations) Stack Page !
+[ INFO ] 2023-08-15 12:38:33.942 - Class Name: StepDefinitions.stepDefn -> Method: click_on_the_implementations_in_stack -> SUCCESS Msg: User clicked the Stack Impl -> Stack Page !
+[ INFO ] 2023-08-15 12:38:35.116 - Class Name: StepDefinitions.stepDefn -> Method: user_redirected_to_implementations_page_and_clicks_the_try_here -> SUCCESS Msg: User clicked the Stack Impl -> Try Here -> Stack Page !
+[ INFO ] 2023-08-15 12:38:36.373 - Class Name: StepDefinitions.stepDefn -> Method: clicked_on_the_Stack_Impl_run_button_and_verify_the_output_try_a_print_hello_statement_here -> SUCCESS Msg: User clicked the RUN button in (Stack Impl) - Stack Page !
+[ INFO ] 2023-08-15 12:38:36.535 - Class Name: StepDefinitions.stepDefn -> Method: click_on_the_applications_in_stack -> SUCCESS Msg: User clicked the Stack Applications -> Stack Page !
+[ INFO ] 2023-08-15 12:38:37.708 - Class Name: StepDefinitions.stepDefn -> Method: user_redirected_to_applications_page_and_clicks_the_try_here -> SUCCESS Msg: User clicked the Stack Applications -> Try Here -> Stack Page !
+[ INFO ] 2023-08-15 12:38:38.963 - Class Name: StepDefinitions.stepDefn -> Method: clicked_on_the_Stack_App_run_button_and_verify_the_output_try_a_print_hello_statement_here -> SUCCESS Msg: User clicked the Stack App -> Run Button -> Stack Page !
+[ INFO ] 2023-08-15 12:38:41.128 - Class Name: StepDefinitions.stepDefn -> Method: click_on_the_practice_question -> SUCCESS Msg: User clicked the Stack App -> Practice Question -> Stack Page !
+[ INFO ] 2023-08-15 12:38:41.136 - Class Name: StepDefinitions.stepDefn -> Method: CheckForTestCasesResults -> SUCCESS Msg: User is in the PRACTICE QUESTIONS in Stack Page !
+[ INFO ] 2023-08-15 12:38:42.250 - Class Name: StepDefinitions.stepDefn -> Method: go_back_to_home_page -> SUCCESS Msg: User landed on the Home Page from Stack Page !
+[ INFO ] 2023-08-15 12:38:43.376 - General Msg: User closed the browser / driver !
+[ INFO ] 2023-08-15 12:38:43.377 - SCENARIO : *** STACK OPERATIONS - VALID WORKING FEATURES *** passed successfully !
+[ INFO ] 2023-08-15 12:38:43.377 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:38:43.377 - ###################### ###################### SCENARIO ENDS ###################### ######################
+[ INFO ] 2023-08-15 12:38:43.377 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:38:43.388 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:38:43.388 - ###################### ###################### SCENARIO BEGINS ###################### ######################
+[ INFO ] 2023-08-15 12:38:43.388 - ***********************************************************************************************************
+[ERROR ] 2023-08-15 12:38:43.721 - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[ WARN ] 2023-08-15 12:38:43.722 - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[ INFO ] 2023-08-15 12:38:43.857 - Exporting webdriver.chrome.driver as C:\Users\aasvi\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[ INFO ] 2023-08-15 12:38:45.033 - Class Name: StepDefinitions.stepDefn -> Method: user_is_on_the_homepage -> SUCCESS Msg: User launched Home Page to login and test any DS Page !
+[ INFO ] 2023-08-15 12:38:45.559 - Class Name: StepDefinitions.stepDefn -> Method: user_logs_in_with_valid_credentials -> SUCCESS Msg: User logs in Home Page to test any DS Page !
+[ INFO ] 2023-08-15 12:38:45.747 - Class Name: StepDefinitions.stepDefn -> Method: click_the_get_started_then_redirected_to_stack_page -> SUCCESS Msg: User clicked on the Get Started button in Home Page to test the Stack Page !
+[ INFO ] 2023-08-15 12:38:47.079 - Class Name: StepDefinitions.stepDefn -> Method: click_on_the_operations_in_stack -> SUCCESS Msg: User clicked on the Operations in Stack to test the Stack Page !
+[ INFO ] 2023-08-15 12:38:48.948 - Class Name: StepDefinitions.stepDefn -> Method: user_redirected_to_stack_operations_page_and_clicks_the_try_here -> SUCCESS Msg: User clicked on the TRY HERE -> Operations in Stack -> Stack Page !
+[ INFO ] 2023-08-15 12:38:50.042 - Class Name: StepDefinitions.stepDefn -> Method: User_redirected_to_the_Stack_Editor_Page_and_works_on_invalid_code_snippet -> SUCCESS Msg: User is in the Stack Editor Page and works on an Invalid Code Snippet -> Stack Page !
+[ INFO ] 2023-08-15 12:38:51.107 - Class Name: StepDefinitions.stepDefn -> Method: Clicked_on_the_Stack_Op_RunButton_and_verify_the_alert -> SUCCESS Msg: System Handled ALERT for invalid code snippet !
+[ WARN ] 2023-08-15 12:38:51.113 - Class Name: StepDefinitions.stepDefn -> Method: Clicked_on_the_Stack_Op_RunButton_and_verify_the_alert -> Warning Msg: User unable to click the Stack Operations (to check invalid code snippet) -> RUN Button -> Stack Page !
+[ INFO ] 2023-08-15 12:38:52.284 - Class Name: StepDefinitions.stepDefn -> Method: go_back_to_home_page -> SUCCESS Msg: User landed on the Home Page from Stack Page !
+[ INFO ] 2023-08-15 12:38:53.403 - General Msg: User closed the browser / driver !
+[ INFO ] 2023-08-15 12:38:53.404 - SCENARIO : *** STACK OPERATIONS - INVALID CODE TESTING *** passed successfully !
+[ INFO ] 2023-08-15 12:38:53.404 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:38:53.404 - ###################### ###################### SCENARIO ENDS ###################### ######################
+[ INFO ] 2023-08-15 12:38:53.404 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:38:53.423 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:38:53.423 - ###################### ###################### SCENARIO BEGINS ###################### ######################
+[ INFO ] 2023-08-15 12:38:53.423 - ***********************************************************************************************************
+[ERROR ] 2023-08-15 12:38:53.782 - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[ WARN ] 2023-08-15 12:38:53.782 - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[ INFO ] 2023-08-15 12:38:53.898 - Exporting webdriver.chrome.driver as C:\Users\aasvi\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[ INFO ] 2023-08-15 12:38:55.214 - Class Name: StepDefinitions.stepDefn -> Method: user_is_on_the_homepage -> SUCCESS Msg: User launched Home Page to login and test any DS Page !
+[ INFO ] 2023-08-15 12:38:55.733 - Class Name: StepDefinitions.stepDefn -> Method: user_logs_in_with_valid_credentials -> SUCCESS Msg: User logs in Home Page to test any DS Page !
+[ INFO ] 2023-08-15 12:38:55.911 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_get_started_button_under_queue_column -> SUCCESS Msg: User clicked on the Get Started Button under Queue Column in Home Page !
+[ INFO ] 2023-08-15 12:38:57.095 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_queue_in_python_link -> SUCCESS Msg: User clicked Queue in Python link - Queue Page !
+[ INFO ] 2023-08-15 12:38:59.254 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_try_here_button_on_queue_in_python_page -> SUCCESS Msg: User is directed to editor Page (Queue) !
+[ INFO ] 2023-08-15 12:39:00.524 - Class Name: StepDefinitions.stepDefn -> Method: DisplayEditorCode -> SUCCESS Msg: User is trying a code snippet in the editor Page of Queue !
+[ INFO ] 2023-08-15 12:39:01.606 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_run_button -> SUCCESS Msg: User is able to click on Run button of TryEditor page
+[ INFO ] 2023-08-15 12:39:02.747 - Class Name: StepDefinitions.stepDefn -> Method: user_navigates_back_to_queue_page -> SUCCESS Msg: User landed on the Queue page from Queue Page !
+[ INFO ] 2023-08-15 12:39:03.924 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_implementation_using_collections_deque_link -> SUCCESS Msg: User clicked Implementation using collections.deque link - Queue Page !
+[ INFO ] 2023-08-15 12:39:05.112 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_try_here_button_on_implementation_using_collections_deque_page -> SUCCESS Msg: User is directed to editor Page (Queue) !
+[ INFO ] 2023-08-15 12:39:06.363 - Class Name: StepDefinitions.stepDefn -> Method: DisplayEditorCode -> SUCCESS Msg: User is trying a code snippet in the editor Page of Queue !
+[ INFO ] 2023-08-15 12:39:07.419 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_run_button -> SUCCESS Msg: User is able to click on Run button of TryEditor page
+[ INFO ] 2023-08-15 12:39:08.541 - Class Name: StepDefinitions.stepDefn -> Method: user_navigates_back_to_queue_page -> SUCCESS Msg: User landed on the Queue page from Queue Page !
+[ INFO ] 2023-08-15 12:39:09.753 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_implementation_using_array_link -> SUCCESS Msg: User clicked Implementation using array link - Queue Page !
+[ INFO ] 2023-08-15 12:39:10.952 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_try_here_button_on_implementation_using_array_pagee -> SUCCESS Msg: User is directed to editor Page (Queue) !
+[ INFO ] 2023-08-15 12:39:12.185 - Class Name: StepDefinitions.stepDefn -> Method: DisplayEditorCode -> SUCCESS Msg: User is trying a code snippet in the editor Page of Queue !
+[ INFO ] 2023-08-15 12:39:13.244 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_run_button -> SUCCESS Msg: User is able to click on Run button of TryEditor page
+[ INFO ] 2023-08-15 12:39:14.374 - Class Name: StepDefinitions.stepDefn -> Method: user_navigates_back_to_queue_page -> SUCCESS Msg: User landed on the Queue page from Queue Page !
+[ INFO ] 2023-08-15 12:39:15.548 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_queue_operations_link -> SUCCESS Msg: User clicked Queue Operations link - Queue Page !
+[ INFO ] 2023-08-15 12:39:16.736 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_try_here_button_on_queue_operations_pagee -> SUCCESS Msg: User is directed to editor Page (Queue) !
+[ INFO ] 2023-08-15 12:39:17.963 - Class Name: StepDefinitions.stepDefn -> Method: DisplayEditorCode -> SUCCESS Msg: User is trying a code snippet in the editor Page of Queue !
+[ INFO ] 2023-08-15 12:39:19.011 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_run_button -> SUCCESS Msg: User is able to click on Run button of TryEditor page
+[ INFO ] 2023-08-15 12:39:20.059 - Class Name: StepDefinitions.stepDefn -> Method: user_navigates_back_to_queueOp_page -> SUCCESS Msg: User landed on the Queue page from Queue Page !
+[ INFO ] 2023-08-15 12:39:22.190 - Class Name: StepDefinitions.stepDefn -> Method: click_on_the_Queue_practice_question -> SUCCESS Msg: User clicked the Practice Question -> Queue Page !
+[ INFO ] 2023-08-15 12:39:22.265 - SCENARIO : *** QUEUE OPERATIONS *** passed successfully !
+[ INFO ] 2023-08-15 12:39:22.265 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:39:22.265 - ###################### ###################### SCENARIO ENDS ###################### ######################
+[ INFO ] 2023-08-15 12:39:22.265 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:39:22.281 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:39:22.281 - ###################### ###################### SCENARIO BEGINS ###################### ######################
+[ INFO ] 2023-08-15 12:39:22.281 - ***********************************************************************************************************
+[ERROR ] 2023-08-15 12:39:22.635 - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[ WARN ] 2023-08-15 12:39:22.635 - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[ INFO ] 2023-08-15 12:39:22.762 - Exporting webdriver.chrome.driver as C:\Users\aasvi\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[ INFO ] 2023-08-15 12:39:23.905 - Class Name: StepDefinitions.stepDefn -> Method: user_is_on_the_homepage -> SUCCESS Msg: User launched Home Page to login and test any DS Page !
+[ INFO ] 2023-08-15 12:39:24.442 - Class Name: StepDefinitions.stepDefn -> Method: user_logs_in_with_valid_credentials -> SUCCESS Msg: User logs in Home Page to test any DS Page !
+[ INFO ] 2023-08-15 12:39:24.667 - Class Name: StepDefinitions.stepDefn -> Method: click_the_get_started_then_redirected_to_tree_page -> SUCCESS Msg: User clicked the Get Started Button in Home Page to Test the Tree operations !
+[ INFO ] 2023-08-15 12:39:24.856 - Class Name: StepDefinitions.stepDefn -> Method: click_on_the_overview_of_trees -> SUCCESS Msg: User clicked the Overview of Trees -> Tree Page !
+[ INFO ] 2023-08-15 12:39:26.774 - Class Name: StepDefinitions.stepDefn -> Method: user_redirected_to_tree_overview_page_and_clicks_the_try_here -> SUCCESS Msg: User clicked the Overview of Trees -> Try Here -> Tree Page !
+[ INFO ] 2023-08-15 12:39:28.087 - Class Name: StepDefinitions.stepDefn -> Method: clicked_on_the_overview_of_trees_run_button_and_verify_the_output_try_a_print_hello_statement_here -> SUCCESS Msg: User clicked the Tree Overview -> Run Button -> Tree Page !
+[ INFO ] 2023-08-15 12:39:28.301 - Class Name: StepDefinitions.stepDefn -> Method: click_on_the_terminologies_of_trees -> SUCCESS Msg: User clicked the Terminologies of Trees -> Tree Page !
+[ INFO ] 2023-08-15 12:39:28.470 - Class Name: StepDefinitions.stepDefn -> Method: user_redirected_to_tree_terminologies_and_clicks_the_try_here -> SUCCESS Msg: User clicked the Terminologies of Trees -> Try Here -> Tree Page !
+[ INFO ] 2023-08-15 12:39:29.718 - Class Name: StepDefinitions.stepDefn -> Method: clicked_on_the_terminologies_of_trees_run_button_and_verify_the_output_try_a_print_hello_statement_here -> SUCCESS Msg: User clicked the Tree Terminologies -> Run Button -> Tree Page !
+[ INFO ] 2023-08-15 12:39:29.949 - Class Name: StepDefinitions.stepDefn -> Method: click_on_the_types_of_trees -> SUCCESS Msg: User clicked the Types of Trees -> Tree Page !
+[ INFO ] 2023-08-15 12:39:30.109 - Class Name: StepDefinitions.stepDefn -> Method: user_redirected_to_tree_types_page_and_clicks_the_try_here -> SUCCESS Msg: User clicked the Types of Trees -> Try here -> Tree Page !
+[ INFO ] 2023-08-15 12:39:31.352 - Class Name: StepDefinitions.stepDefn -> Method: clicked_on_the_types_of_trees_run_button_and_verify_the_output_try_a_print_hello_statement_here -> SUCCESS Msg: User clicked the Types of Tree -> Run Button -> Tree Page !
+[ INFO ] 2023-08-15 12:39:31.669 - Class Name: StepDefinitions.stepDefn -> Method: click_on_the_tree_traversals -> SUCCESS Msg: User clicked the Tree Traversal -> Tree Page !
+[ INFO ] 2023-08-15 12:39:31.820 - Class Name: StepDefinitions.stepDefn -> Method: user_redirected_to_tree_traversals_page_and_clicks_the_try_here -> SUCCESS Msg: User clicked the Tree Traversal -> Try Here -> Tree Page !
+[ INFO ] 2023-08-15 12:39:33.082 - Class Name: StepDefinitions.stepDefn -> Method: clicked_on_the_tree_traversals_run_button_and_verify_the_output_try_a_print_hello_statement_here -> SUCCESS Msg: User clicked the Tree Traversals -> Run Button -> Tree Page !
+[ INFO ] 2023-08-15 12:39:33.426 - Class Name: StepDefinitions.stepDefn -> Method: click_on_the_trees_traversal_illustration -> SUCCESS Msg: User clicked the Tree Traversal Illustration -> Tree Page !
+[ INFO ] 2023-08-15 12:39:33.592 - Class Name: StepDefinitions.stepDefn -> Method: user_redirected_to_tree_traversal_illustration_page_and_clicks_the_try_here -> SUCCESS Msg: User clicked the Tree Traversal Illustration -> Tree Page !
+[ INFO ] 2023-08-15 12:39:34.856 - Class Name: StepDefinitions.stepDefn -> Method: clicked_on_the_trees_traversal_illustration_run_button_and_verify_the_output_try_a_print_hello_statement_here -> SUCCESS Msg: User clicked the Tree Traversals Illustration -> Run Button -> Tree Page !
+[ INFO ] 2023-08-15 12:39:35.175 - Class Name: StepDefinitions.stepDefn -> Method: click_on_the_binary_trees -> SUCCESS Msg: User clicked the Binary Trees -> Tree Page !
+[ INFO ] 2023-08-15 12:39:35.326 - Class Name: StepDefinitions.stepDefn -> Method: user_redirected_to_binary_tree_page_and_clicks_the_try_here -> SUCCESS Msg: User clicked the Binary Trees -> Try Here -> Tree Page !
+[ INFO ] 2023-08-15 12:39:36.579 - Class Name: StepDefinitions.stepDefn -> Method: clicked_on_the_binary_trees_run_button_and_verify_the_output_try_a_print_hello_statement_here -> SUCCESS Msg: User clicked the Binary Tree -> Run Button -> Tree Page !
+[ INFO ] 2023-08-15 12:39:36.946 - Class Name: StepDefinitions.stepDefn -> Method: click_on_the_types_of_binary_trees -> SUCCESS Msg: User clicked the Types of Binary Trees -> Tree Page !
+[ INFO ] 2023-08-15 12:39:37.103 - Class Name: StepDefinitions.stepDefn -> Method: user_redirected_to_binary_tree_types_page_and_clicks_the_try_here -> SUCCESS Msg: User clicked the Types of Binary Trees -> Try Here -> Tree Page !
+[ INFO ] 2023-08-15 12:39:38.397 - Class Name: StepDefinitions.stepDefn -> Method: clicked_on_the_types_of_binary_trees_run_button_and_verify_the_output_try_a_print_hello_statement_here -> SUCCESS Msg: User clicked the Types of Binary Tree -> Run Button -> Tree Page !
+[ INFO ] 2023-08-15 12:39:38.631 - Class Name: StepDefinitions.stepDefn -> Method: click_on_the_implementation_of_trees -> SUCCESS Msg: User clicked the Implementation of Trees in Python -> Tree Page !
+[ INFO ] 2023-08-15 12:39:38.788 - Class Name: StepDefinitions.stepDefn -> Method: user_redirected_to_tree_Python_impl_page_and_clicks_the_try_here -> SUCCESS Msg: User clicked the Implementation of Trees using Python -> Try Here -> Tree Page !
+[ INFO ] 2023-08-15 12:39:40.126 - Class Name: StepDefinitions.stepDefn -> Method: clicked_on_the_implementation_of_trees_in_Python_run_button_and_verify_the_output_try_a_print_hello_statement_here -> SUCCESS Msg: User clicked the Implementation of Tree in Python -> Run Button -> Tree Page !
+[ INFO ] 2023-08-15 12:39:40.431 - Class Name: StepDefinitions.stepDefn -> Method: click_on_the_binary_trees_traversal -> SUCCESS Msg: User clicked the Binary Tree Traversal -> Tree Page !
+[ INFO ] 2023-08-15 12:39:40.586 - Class Name: StepDefinitions.stepDefn -> Method: user_redirected_to_binary_tree_traversal_page_and_clicks_the_try_here -> SUCCESS Msg: User clicked the Binary Tree Traversal -> Try Here -> Tree Page !
+[ INFO ] 2023-08-15 12:39:41.908 - Class Name: StepDefinitions.stepDefn -> Method: clicked_on_the_binary_trees_traversal_run_button_and_verify_the_output_try_a_print_hello_statement_here -> SUCCESS Msg: User clicked the Binary Tree Traversal -> Run Button -> Tree Page !
+[ INFO ] 2023-08-15 12:39:42.187 - Class Name: StepDefinitions.stepDefn -> Method: click_on_the_impl_of_binary_trees -> SUCCESS Msg: User clicked the Binary Tree Implementation -> Tree Page !
+[ INFO ] 2023-08-15 12:39:42.345 - Class Name: StepDefinitions.stepDefn -> Method: user_redirected_to_impl_of_binary_trees_page_and_clicks_the_try_here -> SUCCESS Msg: User clicked the Binary Tree Implementation -> Try Here -> Tree Page !
+[ INFO ] 2023-08-15 12:39:43.651 - Class Name: StepDefinitions.stepDefn -> Method: clicked_on_the_impl_of_binary_trees_run_button_and_verify_the_output_try_a_print_hello_statement_here -> SUCCESS Msg: User clicked the Implementation of Binary Tree -> Run Button -> Tree Page !
+[ INFO ] 2023-08-15 12:39:44.072 - Class Name: StepDefinitions.stepDefn -> Method: click_on_the_appl_of_binary_trees -> SUCCESS Msg: User clicked the Binary Tree Application -> Tree Page !
+[ INFO ] 2023-08-15 12:39:44.224 - Class Name: StepDefinitions.stepDefn -> Method: user_redirected_to_appl_of_binary_trees_page_and_clicks_the_try_here -> SUCCESS Msg: User clicked the Application of Binary Tree -> Try Here -> Tree Page !
+[ INFO ] 2023-08-15 12:39:45.537 - Class Name: StepDefinitions.stepDefn -> Method: clicked_on_the_appl_of_binary_trees_run_button_and_verify_the_output_try_a_print_hello_statement_here -> SUCCESS Msg: User clicked the Application of Binary Tree -> Run Button -> Tree Page !
+[ INFO ] 2023-08-15 12:39:46.043 - Class Name: StepDefinitions.stepDefn -> Method: click_on_the_binary_search_trees -> SUCCESS Msg: User clicked the Binary Tree Search -> Tree Page !
+[ INFO ] 2023-08-15 12:39:46.200 - Class Name: StepDefinitions.stepDefn -> Method: user_redirected_to_binary_search_tree_page_and_clicks_the_try_here -> SUCCESS Msg: User clicked the Binary Tree Search -> Try Here -> Tree Page !
+[ INFO ] 2023-08-15 12:39:47.487 - Class Name: StepDefinitions.stepDefn -> Method: clicked_on_the_binary_search_trees_run_button_and_verify_the_output_try_a_print_hello_statement_here -> SUCCESS Msg: User clicked the Binary Search Tree -> Run Button -> Tree Page !
+[ INFO ] 2023-08-15 12:39:47.751 - Class Name: StepDefinitions.stepDefn -> Method: click_on_the_impl_of_bin_srch_tree -> SUCCESS Msg: User clicked the Binary Tree Search -> Tree Page !
+[ INFO ] 2023-08-15 12:39:47.912 - Class Name: StepDefinitions.stepDefn -> Method: user_redirected_to_impl_of_bin_srch_tree_page_and_clicks_the_try_here -> SUCCESS Msg: User clicked the Binary Tree Search -> Try Here -> Tree Page !
+[ INFO ] 2023-08-15 12:39:49.223 - Class Name: StepDefinitions.stepDefn -> Method: clicked_on_the_Impl_of_BinSrch_Tree_Runbutton_and_verify_the_output_try_a_print_hello_statement_here -> SUCCESS Msg: User clicked the RUN button in Impl of Binary Tree Search -> Run Button -> Tree Page
+[ INFO ] 2023-08-15 12:39:51.598 - Class Name: StepDefinitions.stepDefn -> Method: click_on_the_tree_practice_question -> SUCCESS Msg: User clicked the Tree Page -> Practice Question !
+[ INFO ] 2023-08-15 12:39:51.603 - Class Name: StepDefinitions.stepDefn -> Method: CheckForTestCasesResults -> SUCCESS Msg: User is in the PRACTICE QUESTIONS in Tree Page !
+[ INFO ] 2023-08-15 12:39:52.716 - Class Name: StepDefinitions.stepDefn -> Method: go_back_to_home_page -> SUCCESS Msg: User landed on the Home Page from Tree Page !
+[ INFO ] 2023-08-15 12:39:53.843 - General Msg: User closed the browser / driver !
+[ INFO ] 2023-08-15 12:39:53.843 - SCENARIO : *** TREE OPERATIONS *** passed successfully !
+[ INFO ] 2023-08-15 12:39:53.843 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:39:53.843 - ###################### ###################### SCENARIO ENDS ###################### ######################
+[ INFO ] 2023-08-15 12:39:53.843 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:39:53.859 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:39:53.859 - ###################### ###################### SCENARIO BEGINS ###################### ######################
+[ INFO ] 2023-08-15 12:39:53.859 - ***********************************************************************************************************
+[ERROR ] 2023-08-15 12:39:54.194 - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115
+[ WARN ] 2023-08-15 12:39:54.194 - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_115)
+[ INFO ] 2023-08-15 12:39:54.318 - Exporting webdriver.chrome.driver as C:\Users\aasvi\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+[ INFO ] 2023-08-15 12:39:55.517 - Class Name: StepDefinitions.stepDefn -> Method: user_is_on_the_homepage -> SUCCESS Msg: User launched Home Page to login and test any DS Page !
+[ INFO ] 2023-08-15 12:39:56.048 - Class Name: StepDefinitions.stepDefn -> Method: user_logs_in_with_valid_credentials -> SUCCESS Msg: User logs in Home Page to test any DS Page !
+[ INFO ] 2023-08-15 12:39:57.254 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_the_getstarted_button_of_graph -> SUCCESS Msg: User is able to click the Getstarted  button -> Graph Page !
+[ INFO ] 2023-08-15 12:40:00.294 - Class Name: StepDefinitions.stepDefn -> Method: user_is_directed_to_graph_page -> SUCCESS Msg: User is able to land on Graph -> Graph Page !
+[ INFO ] 2023-08-15 12:40:03.481 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_the_graph_link -> SUCCESS Msg: User is able to land on Graph -> Graph Page !
+[ INFO ] 2023-08-15 12:40:06.630 - Class Name: StepDefinitions.stepDefn -> Method: user_is_directed_to_graph_intro_page -> SUCCESS Msg: User is able to land on GraphIntro Page !
+[ INFO ] 2023-08-15 12:40:08.732 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_try_here_button -> SUCCESS Msg: User is able to click on Tryhere button -> Graph Representations Page!
+[ INFO ] 2023-08-15 12:40:09.829 - Class Name: StepDefinitions.stepDefn -> Method: user_is_directed_to_try_editor_page -> SUCCESS Msg: User is able to land on TryEditor page!
+[ INFO ] 2023-08-15 12:40:10.902 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_run_button -> SUCCESS Msg: User is able to click on Run button of TryEditor page
+[ INFO ] 2023-08-15 12:40:12.966 - Class Name: StepDefinitions.stepDefn -> Method: navigates_back_to_graph_intro_page -> SUCCESS Msg: User is able to navigate back to GraphIntro Page !
+[ INFO ] 2023-08-15 12:40:16.261 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_graph_representations_link -> SUCCESS Msg: User is able to click on Graph Representations link -> Graph Page !
+[ INFO ] 2023-08-15 12:40:17.450 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_try_here_button -> SUCCESS Msg: User is able to click on Tryhere button -> Graph Representations Page!
+[ INFO ] 2023-08-15 12:40:18.535 - Class Name: StepDefinitions.stepDefn -> Method: user_is_directed_to_try_editor_page -> SUCCESS Msg: User is able to land on TryEditor page!
+[ INFO ] 2023-08-15 12:40:19.586 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_run_button -> SUCCESS Msg: User is able to click on Run button of TryEditor page
+[ INFO ] 2023-08-15 12:40:21.645 - Class Name: StepDefinitions.stepDefn -> Method: navigates_back_to_graph_repr_page -> SUCCESS Msg: User is able to land on Graph Representations Page!
+[ INFO ] 2023-08-15 12:40:24.802 - Class Name: StepDefinitions.stepDefn -> Method: user_clicks_on_Graphpractice_questions_link -> SUCCESS Msg: User is able to click on GraphPractice Questions link !
+[ INFO ] 2023-08-15 12:40:25.820 - Class Name: StepDefinitions.stepDefn -> Method: user_is_directed_to_Graphpractice_questions_page -> SUCCESS Msg: User is able to land on GraphPractice Questions page !
+[ INFO ] 2023-08-15 12:40:26.929 - Class Name: StepDefinitions.stepDefn -> Method: go_back_to_home_page -> SUCCESS Msg: User landed on the Home Page from Graph Page !
+[ INFO ] 2023-08-15 12:40:28.061 - General Msg: User closed the browser / driver !
+[ INFO ] 2023-08-15 12:40:28.061 - SCENARIO : *** GRAPH OPERATIONS *** passed successfully !
+[ INFO ] 2023-08-15 12:40:28.061 - ***********************************************************************************************************
+[ INFO ] 2023-08-15 12:40:28.061 - ###################### ###################### SCENARIO ENDS ###################### ######################
+[ INFO ] 2023-08-15 12:40:28.061 - ***********************************************************************************************************
